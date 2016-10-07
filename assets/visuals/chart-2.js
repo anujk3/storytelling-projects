@@ -1,44 +1,44 @@
 (function() {
-    var margin = { top: 30, left: 100, right: 30, bottom: 30},
-        height = 400 - margin.top - margin.bottom,
-        width = 780 - margin.left - margin.right;
+	var margin = { top: 30, left: 100, right: 30, bottom: 30},
+		height = 400 - margin.top - margin.bottom,
+		width = 780 - margin.left - margin.right;
 
-    console.log("Building chart 2");
+	console.log("Building chart 2");
 
-    var svg = d3.select("#chart-2")
-        .append("svg")
-        .attr("height", height + margin.top + margin.bottom)
-        .attr("width", width + margin.left + margin.right)
-        .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	var svg = d3.select("#chart-2")
+		.append("svg")
+		.attr("height", height + margin.top + margin.bottom)
+		.attr("width", width + margin.left + margin.right)
+		.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-    // Create a time parser
-    var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
-    function timeparse(curr_str){
-        var curr = curr_str.split(":");
+	// Create a time parser
+	var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
+	function timeparse(curr_str){
+		var curr = curr_str.split(":");
 
-        if (curr.length == 3){
-            hh = (+curr[0]);
-            mm = (+curr[1]);
-            ss = (+curr[2]);
-            // console.log(hh, mm, ss);
-            num_mins = hh*60 + mm;
-            // console.log(num_mins + "." + ss);
+		if (curr.length == 3){
+			hh = (+curr[0]);
+			mm = (+curr[1]);
+			ss = (+curr[2]);
+			// console.log(hh, mm, ss);
+			num_mins = hh*60 + mm;
+			// console.log(num_mins + "." + ss);
 			total_minutes = num_mins + "." + ss;
 			return parseFloat(total_minutes);
-        }else{
-            mm = (+curr[0]);
-            ss = (+curr[1]);
-            // console.log(mm, ss);
-            total_mins = (mm);
-            // console.log(total_mins + "." + ss);
+		}else{
+			mm = (+curr[0]);
+			ss = (+curr[1]);
+			// console.log(mm, ss);
+			total_mins = (mm);
+			// console.log(total_mins + "." + ss);
 			total_minutes = total_mins + "." + ss;
-            return parseFloat(total_minutes);
-        }
-    }
+			return parseFloat(total_minutes);
+		}
+	}
 
-    function create_new_datapoints(nested){
+	function create_new_datapoints(nested){
 		console.log(nested);
 
 		var aggregates = [];
@@ -81,40 +81,40 @@
 
 
 	d3.queue()
-        .defer(d3.csv, "check.csv", function(d) {
-            // While we're reading the data in, parse each date
-            // into a datetime object so it isn't just a string
-            // save it as 'd.datetime'
-            // d.datetime is now your 'useful' date, you can ignore
-            // d.Date. Feel free to use console.log to check it out.
-            d.activityStartTime = parse(d.startTime);
-            //console.log(d.Date)
-            d.avgHR = +d.avgHR;
-            d.avgSpeed = +d["avgSpeed(min/km)"];
-            d.calories = +d.calories;
-            d.timemins = timeparse(d.time);
-            d.distance = +d.distance;
-            d.elevationGain = +d.elevationGain;
-            d.maxHR = +d.maxHR;
+		.defer(d3.csv, "check.csv", function(d) {
+			// While we're reading the data in, parse each date
+			// into a datetime object so it isn't just a string
+			// save it as 'd.datetime'
+			// d.datetime is now your 'useful' date, you can ignore
+			// d.Date. Feel free to use console.log to check it out.
+			d.activityStartTime = parse(d.startTime);
+			//console.log(d.Date)
+			d.avgHR = +d.avgHR;
+			d.avgSpeed = +d["avgSpeed(min/km)"];
+			d.calories = +d.calories;
+			d.timemins = timeparse(d.time);
+			d.distance = +d.distance;
+			d.elevationGain = +d.elevationGain;
+			d.maxHR = +d.maxHR;
 
-            // console.log(d.activityStartTime);
-            return d;
-        })
-        .await(ready);
+			// console.log(d.activityStartTime);
+			return d;
+		})
+		.await(ready);
 
-    function ready(error, datapoints) {
-        // Get the max and min of datetime and Close,
-        // then use that to set the domain of your scale
+	function ready(error, datapoints) {
+		// Get the max and min of datetime and Close,
+		// then use that to set the domain of your scale
 
-        // console.log(datapoints);
+		// console.log(datapoints);
 
-        var nested = d3.nest() // fire up d3.nest
-            .key(function(d) { // group them by activity type
-                return d.activityType;
-            })
-            .entries(datapoints);// and here is our data
+		var nested = d3.nest() // fire up d3.nest
+			.key(function(d) { // group them by activity type
+				return d.activityType;
+			})
+			.entries(datapoints);// and here is our data
 
-        console.log(nested);
+		console.log(nested);
 
 		var aggregates = create_new_datapoints(nested);
 		console.log(aggregates);
@@ -128,21 +128,20 @@
 		// bind your pie(datapoints), not
 		// just your datapoints
 
-        var pieContainer = svg
-            .append("g")
-            .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+		var pieContainer = svg
+			.append("g")
+			.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 
-        var g = pieContainer.selectAll(".arc")
-            .data(pie(aggregates))
-            .enter().append("g")
-            .attr("class", "arc");
+		var g = pieContainer.selectAll(".arc")
+			.data(pie(aggregates))
+			.enter().append("g")
+			.attr("class", "arc");
 
-        g.append("path")
-            .attr("d", arc)
-            .style("fill", function(d) { return colorScale(d.data.totalmins); })
-			.on('mouseover', tip.show)
-			.on('mouseout', tip.hide);
+		g.append("path")
+			.attr("d", arc)
+			.style("fill", function(d) { return colorScale(d.data.totalmins); });
+
 
 		g.append("text")
 			.attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
@@ -156,6 +155,5 @@
 				}
 			});
 
-
-    }
+	}
 })();
