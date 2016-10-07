@@ -1,0 +1,394 @@
+id,activityName,activityType,startTime,time,distance,elevationGain,avgSpeed(min/km),avgHR,maxHR,calories
+1,Running,Running,"Sun, 25 Sep 2016 4:06 AM",48:23,9.48,NA,5.06,161,177,825
+2,Running,Running,"Wed, 21 Sep 2016 7:55 AM",13:23,2.63,NA,5.05,143,164,191
+3,Strength Training,Strength Training,"Tue, 20 Sep 2016 7:23 AM",1:15:28,NA,NA,NA,125,167,859
+4,Running,Running,"Sun, 18 Sep 2016 6:57 AM",30:24,4.16,NA,7.18,157,188,502
+5,Running,Running,"Thu, 15 Sep 2016 3:03 AM",31:12,4.22,NA,7.23,150,184,481
+6,Strength Training,Strength Training,"Tue, 13 Sep 2016 8:12 AM",1:05:45,NA,NA,NA,123,162,735
+7,New York City Running,Running,"Sat, 10 Sep 2016 6:32 PM",28:55,5.07,50,5.42,NA,NA,412
+8,Strength Training,Strength Training,"Sat, 10 Sep 2016 6:24 AM",1:06:23,NA,NA,NA,101,148,514
+9,Running,Running,"Thu, 8 Sep 2016 6:59 AM",36:37,4.51,NA,8.07,142,174,515
+10,New York City Running,Running,"Sun, 4 Sep 2016 6:13 PM",59:23,10.02,77,5.56,164,177,827
+11,Strength Training,Strength Training,"Sat, 3 Sep 2016 6:18 AM",1:05:07,NA,NA,NA,113,175,619
+12,Strength Training,Strength Training,"Thu, 1 Sep 2016 7:43 AM",1:12:10,NA,NA,NA,105,145,604
+13,Strength Training,Strength Training,"Wed, 31 Aug 2016 5:42 AM",54:02,NA,NA,NA,123,176,598
+14,New York City Running,Running,"Sun, 28 Aug 2016 7:02 PM",22:55,3.85,26,5.57,NA,NA,314
+15,Running,Running,"Sat, 27 Aug 2016 3:29 AM",32:12,6.19,NA,5.12,149,174,493
+16,Strength Training,Strength Training,"Wed, 24 Aug 2016 6:29 AM",1:06:42,NA,NA,NA,125,165,766
+17,New York City Running,Running,"Mon, 22 Aug 2016 8:55 AM",12:14,2.00,27,6.06,NA,NA,156
+18,New York City Running,Running,"Fri, 19 Aug 2016 6:25 PM",8:57,1.27,1,7.02,NA,NA,97
+19,Indoor Cardio,Cardio,"Fri, 12 Aug 2016 7:42 PM",30:08,NA,NA,NA,125,150,344
+20,Running,Running,"Fri, 12 Aug 2016 6:59 PM",41:27,7.16,NA,5.47,142,163,583
+21,Strength Training,Strength Training,"Thu, 11 Aug 2016 8:26 PM",1:34:33,NA,NA,NA,113,157,901
+22,Running,Running,"Tue, 9 Aug 2016 8:55 PM",39:09,6.30,NA,6.13,135,157,503
+23,Indoor Cardio,Cardio,"Mon, 8 Aug 2016 9:35 PM",35:19,1.76,NA,NA,123,175,389
+24,Indoor Cardio,Cardio,"Mon, 8 Aug 2016 8:36 PM",51:25,2.56,NA,NA,108,148,452
+25,Running,Running,"Sat, 6 Aug 2016 8:46 PM",25:24,4.50,NA,5.39,139,156,346
+26,Indoor Cardio,Cardio,"Sat, 6 Aug 2016 8:22 PM",21:01,NA,NA,NA,111,147,194
+27,Indoor Cardio,Cardio,"Sat, 6 Aug 2016 7:55 PM",23:56,NA,NA,NA,117,149,244
+28,Running,Running,"Sat, 6 Aug 2016 7:31 PM",23:11,3.87,NA,6,134,155,299
+29,Strength Training,Strength Training,"Fri, 5 Aug 2016 8:39 PM",1:24:17,NA,NA,NA,121,175,926
+30,Running,Running,"Wed, 3 Aug 2016 8:51 PM",36:43,5.81,NA,6.19,148,173,559
+31,Running,Running,"Wed, 3 Aug 2016 8:41 PM",6:42,1.15,NA,5.49,121,137,70
+32,Running,Running,"Tue, 2 Aug 2016 9:54 PM",7:31,1.41,NA,5.21,139,163,100
+33,Strength Training,Strength Training,"Tue, 2 Aug 2016 8:35 PM",1:18:08,NA,NA,NA,105,149,661
+34,Indoor Cardio,Cardio,"Sat, 30 Jul 2016 8:35 PM",17:11,NA,NA,NA,101,131,134
+35,Strength Training,Strength Training,"Thu, 28 Jul 2016 7:26 PM",1:23:18,NA,NA,NA,114,167,833
+36,Strength Training,Strength Training,"Wed, 27 Jul 2016 9:17 PM",41:10,NA,NA,NA,124,152,483
+37,Running,Running,"Tue, 26 Jul 2016 8:41 PM",35:20,6.39,NA,5.32,147,166,541
+38,Strength Training,Strength Training,"Mon, 25 Jul 2016 8:47 PM",1:14:11,NA,NA,NA,112,147,717
+39,Strength Training,Strength Training,"Sat, 23 Jul 2016 8:13 PM",1:56:35,NA,NA,NA,123,178,1341
+40,Indoor Cardio,Cardio,"Fri, 22 Jul 2016 8:50 PM",37:41,NA,NA,NA,111,135,359
+41,Strength Training,Strength Training,"Wed, 20 Jul 2016 9:06 PM",1:03:28,NA,NA,NA,121,157,710
+42,Strength Training,Strength Training,"Tue, 19 Jul 2016 8:26 PM",1:37:07,NA,NA,NA,116,166,1000
+43,Strength Training,Strength Training,"Mon, 18 Jul 2016 8:51 PM",1:13:57,NA,NA,NA,124,163,860
+44,Strength Training,Strength Training,"Sat, 16 Jul 2016 8:41 PM",1:05:58,NA,NA,NA,113,154,651
+45,Strength Training,Strength Training,"Fri, 15 Jul 2016 8:22 PM",1:35:06,NA,NA,NA,108,176,812
+46,Strength Training,Strength Training,"Thu, 14 Jul 2016 8:39 PM",1:23:44,NA,NA,NA,123,183,962
+47,Running,Running,"Wed, 13 Jul 2016 9:17 PM",33:07,4.91,NA,6.45,141,159,476
+48,Indoor Cardio,Cardio,"Wed, 13 Jul 2016 8:31 PM",29:46,NA,NA,NA,94,142,200
+49,Indoor Cardio,Cardio,"Tue, 12 Jul 2016 8:46 PM",50:10,NA,NA,NA,118,165,539
+50,Indoor Cardio,Cardio,"Mon, 11 Jul 2016 9:19 PM",25:48,NA,NA,NA,110,143,241
+51,Indoor Cardio,Cardio,"Mon, 11 Jul 2016 8:42 PM",19:31,NA,NA,NA,105,144,165
+52,Running,Running,"Mon, 11 Jul 2016 8:29 PM",12:50,2.25,NA,5.42,133,153,163
+53,Strength Training,Strength Training,"Sat, 9 Jul 2016 6:35 PM",1:22:42,NA,NA,NA,118,158,887
+54,Strength Training,Strength Training,"Fri, 8 Jul 2016 6:41 PM",1:00:05,NA,NA,NA,112,133,587
+55,Strength Training,Strength Training,"Thu, 7 Jul 2016 11:05 AM",1:49:19,NA,NA,NA,122,175,1250
+56,Strength Training,Strength Training,"Wed, 6 Jul 2016 9:50 PM",1:01:54,NA,NA,NA,93,142,407
+57,Strength Training,Strength Training,"Tue, 5 Jul 2016 8:10 PM",1:26:26,NA,NA,NA,100,134,674
+58,Strength Training,Strength Training,"Tue, 5 Jul 2016 6:50 PM",1:07:58,NA,NA,NA,113,160,674
+59,Strength Training,Strength Training,"Mon, 4 Jul 2016 8:42 PM",2:10:45,NA,NA,NA,118,157,1405
+60,Strength Training,Strength Training,"Sat, 2 Jul 2016 1:20 PM",1:47:08,NA,NA,NA,113,146,1046
+61,Strength Training,Strength Training,"Mon, 27 Jun 2016 8:32 PM",2:13:39,NA,NA,NA,124,181,1567
+62,Strength Training,Strength Training,"Sat, 25 Jun 2016 7:58 PM",2:03:22,NA,NA,NA,108,157,1123
+63,Strength Training,Strength Training,"Fri, 17 Jun 2016 6:35 PM",1:20:06,NA,NA,NA,106,174,693
+64,Strength Training,Strength Training,"Thu, 16 Jun 2016 9:05 PM",51:47,NA,NA,NA,104,141,434
+65,Strength Training,Strength Training,"Mon, 13 Jun 2016 9:30 PM",56:21,NA,NA,NA,123,174,647
+66,Strength Training,Strength Training,"Sun, 12 Jun 2016 7:40 AM",1:13:41,NA,NA,NA,135,166,995
+67,Strength Training,Strength Training,"Sat, 11 Jun 2016 7:04 PM",1:34:03,NA,NA,NA,114,147,951
+68,Strength Training,Strength Training,"Fri, 10 Jun 2016 6:14 PM",1:42:25,NA,NA,NA,110,166,953
+69,Strength Training,Strength Training,"Thu, 9 Jun 2016 8:20 PM",1:56:46,NA,NA,NA,116,168,1215
+70,Strength Training,Strength Training,"Mon, 6 Jun 2016 8:43 PM",1:24:32,NA,NA,NA,128,170,1042
+71,Strength Training,Strength Training,"Sat, 4 Jun 2016 7:40 PM",1:41:49,NA,NA,NA,109,166,948
+72,Strength Training,Strength Training,"Sat, 4 Jun 2016 5:04 PM",2:06:03,NA,NA,NA,128,174,1556
+73,Strength Training,Strength Training,"Thu, 2 Jun 2016 8:44 PM",1:52:55,NA,NA,NA,121,161,1263
+74,Strength Training,Strength Training,"Sat, 28 May 2016 8:30 PM",1:15:20,NA,NA,NA,112,157,731
+75,Strength Training,Strength Training,"Fri, 27 May 2016 7:34 PM",3:23:57,NA,NA,NA,106,184,1767
+76,Indoor Cardio,Cardio,"Tue, 24 May 2016 10:21 PM",20:05,NA,NA,NA,112,131,193
+77,Strength Training,Strength Training,"Mon, 23 May 2016 8:40 PM",2:05:48,NA,NA,NA,116,166,1315
+78,Strength Training,Strength Training,"Sat, 21 May 2016 7:49 PM",1:49:52,NA,NA,NA,111,160,1044
+79,Strength Training,Strength Training,"Fri, 20 May 2016 8:09 PM",1:22:27,NA,NA,NA,109,156,754
+80,Indoor Cardio,Cardio,"Fri, 20 May 2016 6:58 PM",25:05,NA,NA,NA,97,148,180
+81,Strength Training,Strength Training,"Thu, 19 May 2016 8:10 PM",1:02:40,NA,NA,NA,106,156,548
+82,Strength Training,Strength Training,"Wed, 18 May 2016 8:22 PM",1:29:09,NA,NA,NA,109,170,815
+83,Strength Training,Strength Training,"Tue, 17 May 2016 7:09 PM",25:01,NA,NA,NA,122,147,284
+84,Strength Training,Strength Training,"Mon, 16 May 2016 8:47 PM",1:52:45,NA,NA,NA,117,182,1178
+85,Strength Training,Strength Training,"Sat, 14 May 2016 6:32 PM",1:19:03,NA,NA,NA,114,145,789
+86,Strength Training,Strength Training,"Fri, 13 May 2016 8:09 PM",1:07:16,NA,NA,NA,117,148,702
+87,Indoor Cardio,Cardio,"Fri, 13 May 2016 6:41 PM",1:12:14,7.24,NA,NA,133,171,945
+88,Strength Training,Strength Training,"Wed, 11 May 2016 7:50 PM",1:38:32,NA,NA,NA,108,143,892
+89,Strength Training,Strength Training,"Mon, 9 May 2016 8:45 PM",1:30:06,NA,NA,NA,119,178,958
+90,Running,Running,"Sun, 8 May 2016 7:35 PM",1:10:24,13.69,NA,5.09,153,164,1136
+91,Strength Training,Strength Training,"Sat, 7 May 2016 7:50 PM",1:35:31,NA,NA,NA,104,160,803
+92,Strength Training,Strength Training,"Fri, 6 May 2016 7:52 PM",2:25:46,NA,NA,NA,106,170,1243
+93,Indoor Cardio,Cardio,"Fri, 6 May 2016 7:14 PM",20:02,NA,NA,NA,126,177,233
+94,Running,Running,"Fri, 6 May 2016 6:30 PM",31:59,6.29,NA,5.05,148,167,485
+95,Strength Training,Strength Training,"Thu, 5 May 2016 8:30 PM",1:47:38,NA,NA,NA,116,160,1099
+96,Strength Training,Strength Training,"Wed, 4 May 2016 8:32 PM",1:39:25,NA,NA,NA,115,172,999
+97,Indoor Cardio,Cardio,"Tue, 3 May 2016 7:49 PM",17:04,NA,NA,NA,115,129,168
+98,Running,Running,"Tue, 3 May 2016 7:12 PM",26:52,5.25,NA,5.07,153,167,428
+99,Strength Training,Strength Training,"Mon, 2 May 2016 8:23 PM",1:58:21,NA,NA,NA,117,154,1222
+100,Strength Training,Strength Training,"Sat, 30 Apr 2016 6:54 PM",1:25:23,NA,NA,NA,102,149,685
+101,Strength Training,Strength Training,"Thu, 28 Apr 2016 8:26 PM",1:31:10,NA,NA,NA,115,154,915
+102,Strength Training,Strength Training,"Wed, 27 Apr 2016 8:07 PM",1:39:20,NA,NA,NA,111,162,930
+103,Indoor Cardio,Cardio,"Tue, 26 Apr 2016 8:28 PM",44:48,NA,NA,NA,105,141,379
+104,Running,Running,"Tue, 26 Apr 2016 7:19 PM",30:35,5.61,NA,5.27,152,175,483
+105,Strength Training,Strength Training,"Mon, 25 Apr 2016 8:50 PM",1:34:11,NA,NA,NA,122,173,1050
+106,Gondhale Nagar Running,Running,"Sun, 24 Apr 2016 6:44 PM",46:44,7.69,32,6.05,NA,NA,636
+107,Strength Training,Strength Training,"Sat, 23 Apr 2016 8:37 PM",1:31:42,NA,NA,NA,110,151,849
+108,Strength Training,Strength Training,"Sat, 23 Apr 2016 8:14 AM",1:02:57,NA,NA,NA,85,119,328
+109,Running,Running,"Fri, 22 Apr 2016 7:18 PM",39:30,6.45,NA,6.07,137,159,532
+110,Indoor Cardio,Cardio,"Wed, 20 Apr 2016 8:39 PM",1:34:01,9.42,NA,NA,113,176,909
+111,Indoor Cardio,Cardio,"Mon, 18 Apr 2016 9:07 PM",8:01,NA,NA,NA,100,115,59
+112,Strength Training,Strength Training,"Mon, 18 Apr 2016 7:17 PM",1:45:52,NA,NA,NA,128,177,1288
+113,Strength Training,Strength Training,"Sat, 16 Apr 2016 8:14 PM",1:56:33,NA,NA,NA,112,168,1107
+114,Strength Training,Strength Training,"Sat, 16 Apr 2016 8:20 AM",1:52:03,NA,NA,NA,100,152,851
+115,Indoor Cardio,Cardio,"Fri, 15 Apr 2016 9:07 PM",15:02,NA,NA,NA,111,120,138
+116,Running,Running,"Fri, 15 Apr 2016 8:49 PM",12:15,2.37,NA,5.1,149,161,185
+117,Indoor Cardio,Cardio,"Fri, 15 Apr 2016 8:32 PM",15:04,NA,NA,NA,117,134,153
+118,Running,Running,"Fri, 15 Apr 2016 8:18 PM",12:17,2.33,NA,5.16,148,157,183
+119,Indoor Cardio,Cardio,"Wed, 13 Apr 2016 10:32 PM",8:02,NA,NA,NA,82,90,36
+120,Strength Training,Strength Training,"Wed, 13 Apr 2016 8:37 PM",1:51:38,NA,NA,NA,100,149,856
+121,Strength Training,Strength Training,"Tue, 12 Apr 2016 8:11 PM",1:11:38,NA,NA,NA,105,140,599
+122,Indoor Cardio,Cardio,"Tue, 12 Apr 2016 7:32 PM",20:05,NA,NA,NA,127,138,237
+123,Running,Running,"Tue, 12 Apr 2016 7:12 PM",19:27,3.61,NA,5.23,154,170,314
+124,Indoor Cardio,Cardio,"Tue, 12 Apr 2016 6:46 PM",20:04,NA,NA,NA,127,164,237
+125,Running,Running,"Tue, 12 Apr 2016 6:29 PM",16:34,3.00,NA,5.32,148,167,248
+126,Indoor Cardio,Cardio,"Mon, 11 Apr 2016 10:53 PM",7:46,NA,NA,NA,88,109,42
+127,Strength Training,Strength Training,"Mon, 11 Apr 2016 9:11 PM",1:38:29,NA,NA,NA,124,171,1138
+128,Indoor Cardio,Cardio,"Sat, 9 Apr 2016 8:06 PM",8:02,0.81,NA,NA,92,105,49
+129,Strength Training,Strength Training,"Sat, 9 Apr 2016 6:07 PM",1:55:01,NA,NA,NA,118,171,1213
+130,Running,Running,"Fri, 8 Apr 2016 7:38 PM",15:11,2.31,NA,6.35,140,160,209
+131,Indoor Cardio,Cardio,"Fri, 8 Apr 2016 7:17 PM",15:05,NA,NA,NA,89,130,87
+132,Running,Running,"Fri, 8 Apr 2016 7:04 PM",12:33,2.32,NA,5.24,152,159,195
+133,Indoor Cardio,Cardio,"Fri, 8 Apr 2016 6:47 PM",15:02,NA,NA,NA,106,171,125
+134,Running,Running,"Fri, 8 Apr 2016 6:34 PM",12:57,2.28,NA,5.41,151,165,205
+135,Indoor Cardio,Cardio,"Fri, 8 Apr 2016 6:17 PM",15:01,NA,NA,NA,119,175,157
+136,Running,Running,"Fri, 8 Apr 2016 6:02 PM",14:24,2.47,NA,5.49,147,157,215
+137,Indoor Cardio,Cardio,"Fri, 8 Apr 2016 5:45 PM",15:03,NA,NA,NA,94,151,99
+138,Strength Training,Strength Training,"Thu, 7 Apr 2016 9:12 PM",1:49:40,NA,NA,NA,120,163,1202
+139,Indoor Cardio,Cardio,"Wed, 6 Apr 2016 9:34 PM",8:04,NA,NA,NA,93,108,51
+140,Strength Training,Strength Training,"Wed, 6 Apr 2016 7:51 PM",1:38:30,NA,NA,NA,93,137,639
+141,Strength Training,Strength Training,"Tue, 5 Apr 2016 8:18 PM",58:55,NA,NA,NA,114,145,577
+142,Strength Training,Strength Training,"Tue, 5 Apr 2016 6:17 PM",1:20:53,NA,NA,NA,120,159,884
+143,Indoor Cardio,Cardio,"Sun, 3 Apr 2016 11:46 AM",14:58,NA,NA,NA,94,142,98
+144,Strength Training,Strength Training,"Sun, 3 Apr 2016 9:58 AM",1:47:24,NA,NA,NA,83,143,526
+145,Strength Training,Strength Training,"Thu, 31 Mar 2016 8:16 PM",1:21:34,NA,NA,NA,125,173,950
+146,Strength Training,Strength Training,"Wed, 30 Mar 2016 7:58 PM",1:20:12,NA,NA,NA,110,171,743
+147,Indoor Cardio,Cardio,"Tue, 29 Mar 2016 7:49 PM",6:39,NA,NA,NA,79,95,12
+148,Indoor Cardio,Cardio,"Tue, 29 Mar 2016 7:29 PM",15:04,NA,NA,NA,119,132,159
+149,Running,Running,"Tue, 29 Mar 2016 6:55 PM",33:02,6.16,NA,5.22,149,162,513
+150,Strength Training,Strength Training,"Sat, 26 Mar 2016 4:25 PM",1:23:40,NA,NA,NA,120,160,904
+151,Strength Training,Strength Training,"Fri, 25 Mar 2016 8:09 PM",1:07:53,NA,NA,NA,100,151,514
+152,Running,Running,"Fri, 25 Mar 2016 7:23 PM",34:22,6.23,NA,5.31,139,158,474
+153,Indoor Cardio,Cardio,"Fri, 25 Mar 2016 6:48 PM",30:30,NA,NA,NA,109,140,275
+154,Strength Training,Strength Training,"Thu, 24 Mar 2016 9:02 PM",1:23:22,NA,NA,NA,110,159,774
+155,Strength Training,Strength Training,"Wed, 23 Mar 2016 8:00 PM",1:32:12,NA,NA,NA,110,148,857
+156,Strength Training,Strength Training,"Tue, 22 Mar 2016 8:06 PM",1:00:09,NA,NA,NA,103,143,490
+157,Indoor Cardio,Cardio,"Tue, 22 Mar 2016 7:46 PM",7:34,NA,NA,NA,77,81,12
+158,Running,Running,"Tue, 22 Mar 2016 7:33 PM",11:19,2.00,NA,5.4,141,160,158
+159,Indoor Cardio,Cardio,"Tue, 22 Mar 2016 7:02 PM",28:13,NA,NA,NA,101,148,224
+160,Strength Training,Strength Training,"Mon, 21 Mar 2016 8:04 PM",1:49:23,NA,NA,NA,100,165,837
+161,Indoor Cardio,Cardio,"Mon, 21 Mar 2016 10:41 AM",20:04,1.01,NA,NA,127,143,236
+162,Running,Running,"Mon, 21 Mar 2016 10:30 AM",10:52,1.88,NA,5.46,132,157,138
+163,Hadapsar Running,Running,"Sun, 20 Mar 2016 6:00 PM",33:04,5.88,11,5.38,159,180,481
+164,Strength Training,Strength Training,"Sat, 19 Mar 2016 8:48 PM",1:46:49,NA,NA,NA,115,157,1079
+165,Running,Running,"Sat, 19 Mar 2016 6:13 PM",11:45,2.26,NA,5.12,138,152,156
+166,Indoor Cardio,Cardio,"Sat, 19 Mar 2016 5:45 PM",20:08,NA,NA,NA,125,143,233
+167,Running,Running,"Sat, 19 Mar 2016 5:33 PM",10:08,1.97,NA,5.1,140,155,137
+168,Indoor Cardio,Cardio,"Sat, 19 Mar 2016 5:19 PM",10:05,NA,NA,NA,125,136,116
+169,Indoor Cardio,Cardio,"Sat, 19 Mar 2016 5:07 PM",10:01,NA,NA,NA,115,126,98
+170,Running,Running,"Sat, 19 Mar 2016 4:58 PM",7:38,1.45,NA,5.15,141,158,104
+171,Indoor Cardio,Cardio,"Sat, 19 Mar 2016 4:43 PM",10:04,NA,NA,NA,120,131,106
+172,Indoor Cardio,Cardio,"Sat, 19 Mar 2016 4:31 PM",10:01,NA,NA,NA,100,146,73
+173,Running,Running,"Fri, 11 Mar 2016 7:06 PM",1:28:20,8.56,NA,10.2,NA,NA,713
+174,Strength Training,Strength Training,"Wed, 9 Mar 2016 6:17 PM",1:30:04,NA,NA,NA,NA,NA,207
+175,Strength Training,Strength Training,"Tue, 8 Mar 2016 7:34 PM",7:45,NA,NA,NA,NA,NA,11
+176,Strength Training,Strength Training,"Tue, 8 Mar 2016 7:06 PM",25:06,NA,NA,NA,NA,NA,39
+177,Strength Training,Strength Training,"Mon, 7 Mar 2016 6:10 PM",1:35:00,NA,NA,NA,NA,NA,183
+178,Gondhale Nagar Running,Running,"Sat, 5 Mar 2016 6:32 AM",1:04:17,10.01,24,6.25,NA,NA,858
+179,Strength Training,Strength Training,"Thu, 3 Mar 2016 7:34 PM",1:30:04,NA,NA,NA,NA,NA,162
+180,Strength Training,Strength Training,"Wed, 2 Mar 2016 8:23 PM",1:51:57,NA,NA,NA,NA,NA,223
+181,Strength Training,Strength Training,"Tue, 1 Mar 2016 7:18 PM",25:02,NA,NA,NA,NA,NA,39
+182,Strength Training,Strength Training,"Mon, 29 Feb 2016 8:38 PM",1:48:08,NA,NA,NA,NA,NA,201
+183,Hadapsar Running,Running,"Sun, 28 Feb 2016 7:01 AM",59:47,10.02,16,5.58,NA,NA,827
+184,Strength Training,Strength Training,"Sat, 27 Feb 2016 12:52 PM",1:57:43,NA,NA,NA,NA,NA,268
+185,Indoor Cardio,Cardio,"Fri, 26 Feb 2016 7:54 PM",6:12,0.00,NA,NA,NA,NA,9
+186,Indoor Cardio,Cardio,"Fri, 26 Feb 2016 7:23 PM",25:05,0.02,NA,NA,NA,NA,38
+187,Strength Training,Strength Training,"Thu, 25 Feb 2016 8:50 PM",4:00:07,NA,NA,NA,NA,NA,438
+188,Strength Training,Strength Training,"Wed, 24 Feb 2016 7:52 PM",1:46:42,NA,NA,NA,NA,NA,201
+189,Indoor Cardio,Cardio,"Tue, 23 Feb 2016 7:34 PM",1:00:06,0.43,NA,NA,NA,NA,107
+190,Strength Training,Strength Training,"Mon, 22 Feb 2016 8:34 PM",1:30:57,NA,NA,NA,NA,NA,169
+191,Strength Training,Strength Training,"Sat, 20 Feb 2016 6:59 PM",1:46:31,NA,NA,NA,NA,NA,234
+192,Indoor Cardio,Cardio,"Fri, 19 Feb 2016 7:06 PM",1:00:06,0.97,NA,NA,NA,NA,119
+193,Strength Training,Strength Training,"Thu, 18 Feb 2016 7:23 PM",1:40:34,NA,NA,NA,NA,NA,182
+194,Strength Training,Strength Training,"Wed, 17 Feb 2016 7:43 PM",1:48:40,NA,NA,NA,NA,NA,230
+195,Indoor Cardio,Cardio,"Tue, 16 Feb 2016 7:02 PM",1:00:05,1.37,NA,NA,NA,NA,132
+196,Strength Training,Strength Training,"Mon, 15 Feb 2016 8:10 PM",1:37:03,NA,NA,NA,NA,NA,181
+197,Hadapsar Running,Running,"Sun, 14 Feb 2016 6:49 PM",27:17,4.00,6,6.49,NA,NA,330
+198,Strength Training,Strength Training,"Sat, 13 Feb 2016 5:03 PM",1:44:23,NA,NA,NA,NA,NA,223
+199,Indoor Cardio,Cardio,"Fri, 12 Feb 2016 9:07 AM",10:29,NA,NA,NA,NA,NA,15
+200,Indoor Cardio,Cardio,"Fri, 12 Feb 2016 8:54 AM",11:20,0.01,NA,NA,NA,NA,16
+201,Indoor Cardio,Cardio,"Fri, 12 Feb 2016 7:58 AM",55:18,1.47,NA,NA,NA,NA,128
+202,Strength Training,Strength Training,"Thu, 11 Feb 2016 7:43 PM",1:22:58,NA,NA,NA,NA,NA,160
+203,Strength Training,Strength Training,"Wed, 10 Feb 2016 8:15 PM",1:19:03,NA,NA,NA,NA,NA,159
+204,Indoor Cardio,Cardio,"Mon, 8 Feb 2016 8:29 PM",20:05,NA,NA,NA,NA,NA,29
+205,Lokadkot Running,Running,"Sun, 7 Feb 2016 6:00 AM",1:52:53,21.02,27,5.22,NA,NA,1713
+206,Strength Training,Strength Training,"Fri, 5 Feb 2016 5:46 PM",1:17:57,NA,NA,NA,NA,NA,148
+207,Indoor Cardio,Cardio,"Thu, 4 Feb 2016 7:44 PM",9:20,NA,NA,NA,NA,NA,13
+208,Strength Training,Strength Training,"Tue, 2 Feb 2016 8:15 AM",1:28:00,NA,NA,NA,NA,NA,182
+209,Strength Training,Strength Training,"Mon, 1 Feb 2016 7:53 PM",2:54:13,NA,NA,NA,NA,NA,327
+210,Strength Training,Strength Training,"Mon, 1 Feb 2016 9:09 AM",34:25,NA,NA,NA,NA,NA,91
+211,Indoor Cardio,Cardio,"Mon, 1 Feb 2016 8:47 AM",20:02,0.01,NA,NA,NA,NA,29
+212,Film Institute Running,Running,"Sun, 31 Jan 2016 7:00 AM",58:51,10.01,106,5.53,NA,NA,817
+213,Indoor Cardio,Cardio,"Sat, 30 Jan 2016 7:28 PM",55:13,0.56,NA,NA,NA,NA,100
+214,Strength Training,Strength Training,"Thu, 28 Jan 2016 7:46 PM",1:30:08,NA,NA,NA,127,167,941
+215,Strength Training,Strength Training,"Wed, 27 Jan 2016 7:33 PM",1:08:50,NA,NA,NA,NA,NA,139
+216,Strength Training,Strength Training,"Sat, 23 Jan 2016 6:32 PM",1:13:45,NA,NA,NA,NA,NA,137
+217,Mandvi (Mumbai) Running,Running,"Sun, 17 Jan 2016 5:44 AM",4:40:59,42.39,78,6.38,NA,NA,3362
+218,New Yogakshema Running,Running,"Sat, 16 Jan 2016 6:55 AM",10:03,1.50,1,6.41,NA,NA,124
+219,Hadapsar Running,Running,"Wed, 13 Jan 2016 8:30 AM",29:53,5.01,12,5.57,NA,NA,413
+220,Hadapsar Running,Running,"Sun, 10 Jan 2016 7:16 AM",1:17:37,13.14,26,5.54,NA,NA,1078
+221,Strength Training,Strength Training,"Sat, 9 Jan 2016 6:05 PM",1:30:06,NA,NA,NA,NA,NA,170
+222,Gondhale Nagar Running,Running,"Thu, 7 Jan 2016 7:49 PM",30:00,5.12,10,5.52,NA,NA,428
+223,Strength Training,Strength Training,"Wed, 6 Jan 2016 8:26 PM",1:40:12,NA,NA,NA,NA,NA,394
+224,Strength Training,Strength Training,"Mon, 4 Jan 2016 7:10 PM",40:06,NA,NA,NA,NA,NA,60
+225,Gondhale Nagar Running,Running,"Mon, 4 Jan 2016 6:40 AM",2:26:23,24.01,42,6.06,NA,NA,1984
+226,Hadapsar Running,Running,"Sun, 3 Jan 2016 6:57 AM",1:06:02,11.41,25,5.47,NA,NA,935
+227,Indoor Cardio,Cardio,"Fri, 1 Jan 2016 9:07 PM",1:27,NA,NA,NA,NA,NA,2
+228,Indoor Cardio,Cardio,"Thu, 31 Dec 2015 6:17 PM",33:36,0.86,NA,NA,NA,NA,77
+229,Strength Training,Strength Training,"Mon, 28 Dec 2015 8:12 PM",2:13:36,NA,NA,NA,NA,NA,239
+230,Strength Training,Strength Training,"Mon, 28 Dec 2015 6:50 PM",40:02,NA,NA,NA,NA,NA,59
+231,A.R. Shala Running,Running,"Sun, 27 Dec 2015 6:06 AM",3:27:25,32.08,210,6.28,NA,NA,2597
+232,Hadapsar Running,Running,"Sat, 26 Dec 2015 7:06 AM",56:06,10.02,20,5.36,NA,NA,813
+233,Strength Training,Strength Training,"Thu, 24 Dec 2015 8:21 PM",1:47:25,NA,NA,NA,NA,NA,200
+234,Strength Training,Strength Training,"Mon, 21 Dec 2015 7:47 PM",2:21:40,NA,NA,NA,108,158,1100
+235,Gondhale Nagar Running,Running,"Sun, 20 Dec 2015 8:56 AM",39:03,6.00,10,6.3,NA,NA,498
+236,Gondhale Nagar Running,Running,"Sun, 20 Dec 2015 6:21 AM",2:23:39,24.01,40,5.59,NA,NA,1972
+237,Strength Training,Strength Training,"Fri, 18 Dec 2015 6:05 PM",1:46:17,NA,NA,NA,117,154,965
+238,Running,Running,"Thu, 17 Dec 2015 8:23 PM",9:26,1.40,NA,6.45,145,153,105
+239,Hadapsar Running,Running,"Thu, 17 Dec 2015 7:49 PM",31:20,6.02,4,5.12,150,162,402
+240,Gondhale Nagar Running,Running,"Thu, 17 Dec 2015 7:34 PM",9:10,1.52,3,6.02,134,148,100
+241,Strength Training,Strength Training,"Wed, 16 Dec 2015 8:49 PM",1:33:25,NA,NA,NA,NA,NA,162
+242,Strength Training,Strength Training,"Mon, 14 Dec 2015 7:35 PM",1:21:11,NA,NA,NA,NA,NA,155
+243,Hadapsar Running,Running,"Sat, 12 Dec 2015 6:30 AM",53:03,10.20,28,5.12,NA,NA,848
+244,Running,Running,"Thu, 10 Dec 2015 8:27 PM",10:14,1.51,NA,6.47,137,146,108
+245,Hadapsar Running,Running,"Thu, 10 Dec 2015 7:30 PM",50:03,9.02,9,5.33,153,166,650
+246,Strength Training,Strength Training,"Wed, 9 Dec 2015 8:13 PM",1:51:11,NA,NA,NA,120,160,1053
+247,Strength Training,Strength Training,"Mon, 7 Dec 2015 7:57 PM",1:58:04,NA,NA,NA,112,149,999
+248,Hadapsar Running,Running,"Sun, 6 Dec 2015 5:39 AM",2:24:21,22.51,46,6.25,NA,NA,1866
+249,Gondhale Nagar Running,Running,"Sat, 5 Dec 2015 6:44 AM",27:12,5.01,11,5.26,NA,NA,408
+250,Jangpura Running,Running,"Sun, 29 Nov 2015 7:11 AM",1:55:23,21.11,5,5.28,NA,NA,1771
+251,Running,Running,"Thu, 26 Nov 2015 8:53 PM",24:35,3.80,0,6.28,NA,NA,312
+252,Cardio,Cardio,"Wed, 25 Nov 2015 9:18 PM",2:37,NA,NA,NA,NA,NA,3
+253,Cardio,Cardio,"Wed, 25 Nov 2015 9:11 PM",2:07,NA,NA,NA,NA,NA,3
+254,Cardio,Cardio,"Wed, 25 Nov 2015 8:55 PM",2:07,NA,NA,NA,NA,NA,3
+255,Treadmill Running,Treadmill Running,"Tue, 24 Nov 2015 7:29 PM",18:32,2.94,0,6.18,NA,NA,246
+256,Strength Training,Strength Training,"Mon, 23 Nov 2015 8:53 PM",1:11:53,NA,NA,NA,NA,NA,138
+257,Hadapsar Running,Running,"Sun, 22 Nov 2015 7:12 AM",1:49:38,17.01,30,6.27,NA,NA,1419
+258,Strength Training,Strength Training,"Sat, 21 Nov 2015 7:11 PM",1:35:33,NA,NA,NA,117,152,790
+259,Strength Training,Strength Training,"Thu, 19 Nov 2015 8:01 PM",1:24:29,NA,NA,NA,115,145,754
+260,Treadmill Running,Treadmill Running,"Thu, 19 Nov 2015 6:50 PM",34:44,5.47,NA,6.21,156,162,436
+261,Running,Running,"Wed, 18 Nov 2015 9:16 PM",28:12,4.24,NA,6.4,133,147,328
+262,Treadmill Running,Treadmill Running,"Tue, 17 Nov 2015 7:37 PM",32:27,4.22,NA,7.42,153,174,434
+263,Treadmill Running,Treadmill Running,"Mon, 16 Nov 2015 9:22 PM",41:03,1.52,NA,27.06,106,124,317
+264,Strength Training,Strength Training,"Mon, 16 Nov 2015 7:17 PM",1:55:52,NA,NA,NA,116,154,1043
+265,Hadapsar Running,Running,"Sun, 15 Nov 2015 5:34 AM",3:29:11,32.08,37,6.31,NA,NA,2670
+266,Running,Running,"Fri, 13 Nov 2015 8:42 PM",4:02,0.38,NA,10.35,143,157,41
+267,Strength Training,Strength Training,"Fri, 13 Nov 2015 6:23 PM",1:59:37,NA,NA,NA,127,160,1222
+268,Strength Training,Strength Training,"Mon, 9 Nov 2015 8:06 PM",1:52:24,NA,NA,NA,113,150,975
+269,Kothaguda Running,Running,"Sun, 8 Nov 2015 5:51 AM",3:19:47,30.01,154,6.4,NA,NA,2427
+270,Strength Training,Strength Training,"Wed, 4 Nov 2015 8:06 PM",1:14:06,NA,NA,NA,121,157,718
+271,Running,Running,"Wed, 4 Nov 2015 7:23 PM",24:34,3.73,NA,6.35,149,160,317
+272,Running,Running,"Tue, 3 Nov 2015 7:35 PM",30:40,4.26,NA,7.12,154,173,354
+273,Strength Training,Strength Training,"Mon, 2 Nov 2015 8:07 PM",1:47:12,NA,NA,NA,116,155,965
+274,Sasanenagar Running,Running,"Sun, 1 Nov 2015 6:33 AM",1:57:13,19.01,38,6.1,150,162,1430
+275,Treadmill Running,Treadmill Running,"Sat, 31 Oct 2015 4:30 PM",33:30,5.37,NA,6.14,162,169,449
+276,Strength Training,Strength Training,"Sat, 31 Oct 2015 1:57 PM",2:16:10,NA,NA,NA,119,157,735
+277,Gondhale Nagar Strength Training,Strength Training,"Thu, 29 Oct 2015 8:01 PM",1:39:52,NA,NA,NA,99,146,389
+278,Treadmill Running,Treadmill Running,"Wed, 28 Oct 2015 9:51 PM",27:28,4.01,NA,6.52,152,158,339
+279,Gondhale Nagar Running,Running,"Sun, 25 Oct 2015 6:30 AM",2:58:03,26.00,44,6.51,149,164,1772
+280,Treadmill Running,Treadmill Running,"Tue, 20 Oct 2015 7:26 PM",35:09,4.24,NA,8.17,134,159,386
+281,Running,Running,"Mon, 19 Oct 2015 7:28 PM",1:55:19,21.66,NA,5.3,114,157,998
+282,Sasanenagar Running,Running,"Sun, 18 Oct 2015 6:41 PM",2:45:39,23.01,15,7.12,142,160,1409
+283,Running,Running,"Sat, 17 Oct 2015 12:00 PM",2:15:04,21.68,NA,6.22,114,148,1166
+284,Strength Training,Strength Training,"Wed, 14 Oct 2015 8:01 PM",2:25:46,NA,NA,NA,111,153,1031
+285,Strength Training,Strength Training,"Mon, 12 Oct 2015 7:55 PM",1:39:26,NA,NA,NA,127,166,1004
+286,Gondhale Nagar Running,Running,"Sun, 11 Oct 2015 6:48 PM",9:42,1.36,3,7.06,124,142,80
+287,Running,Running,"Sat, 10 Oct 2015 12:49 PM",1:47:42,17.19,NA,6.22,114,148,923
+288,Running,Running,"Fri, 9 Oct 2015 5:38 PM",41:05,5.71,NA,7.12,149,172,524
+289,Strength Training,Strength Training,"Wed, 7 Oct 2015 8:33 PM",1:40:11,NA,NA,NA,116,150,890
+290,Treadmill Running,Treadmill Running,"Tue, 6 Oct 2015 7:35 PM",30:38,4.41,NA,6.57,160,174,385
+291,Strength Training,Strength Training,"Mon, 5 Oct 2015 7:24 PM",1:31:21,NA,NA,NA,120,156,854
+292,Gondhale Nagar Running,Running,"Sun, 4 Oct 2015 7:27 PM",1:20:49,14.01,23,5.46,NA,NA,1107
+293,Sasanenagar Running,Running,"Sun, 4 Oct 2015 9:27 AM",43:29,7.01,12,6.12,NA,NA,579
+294,Strength Training,Strength Training,"Sat, 3 Oct 2015 2:19 PM",2:52:35,NA,NA,NA,111,154,1252
+295,Treadmill Running,Treadmill Running,"Thu, 1 Oct 2015 8:59 PM",32:24,4.29,NA,7.34,135,162,360
+296,Treadmill Running,Treadmill Running,"Tue, 29 Sep 2015 7:33 PM",36:09,3.77,NA,9.36,147,177,426
+297,Strength Training,Strength Training,"Mon, 28 Sep 2015 8:24 PM",1:52:12,NA,NA,NA,122,159,1053
+298,Gondhale Nagar Running,Running,"Sun, 27 Sep 2015 7:11 PM",1:28:19,12.01,11,7.21,135,154,765
+299,Treadmill Running,Treadmill Running,"Sat, 26 Sep 2015 1:47 PM",28:58,3.76,NA,7.43,138,163,331
+300,Treadmill Running,Treadmill Running,"Thu, 24 Sep 2015 7:48 PM",45:18,5.51,NA,8.13,127,165,466
+301,Treadmill Running,Treadmill Running,"Wed, 23 Sep 2015 9:31 PM",24:48,3.06,NA,8.06,136,155,263
+302,Strength Training,Strength Training,"Wed, 23 Sep 2015 7:31 PM",1:51:51,NA,NA,NA,125,160,1108
+303,Treadmill Running,Treadmill Running,"Tue, 22 Sep 2015 7:25 PM",29:36,3.88,NA,7.38,140,170,347
+304,Strength Training,Strength Training,"Sat, 12 Sep 2015 4:58 PM",1:52:00,NA,NA,NA,NA,NA,223
+305,Strength Training,Strength Training,"Mon, 7 Sep 2015 7:52 PM",1:35:34,NA,NA,NA,125,158,665
+306,Strength Training,Strength Training,"Fri, 4 Sep 2015 9:04 PM",48:37,NA,NA,NA,124,154,354
+307,Strength Training,Strength Training,"Wed, 2 Sep 2015 7:32 PM",1:51:05,NA,NA,NA,122,156,694
+308,Strength Training,Strength Training,"Mon, 31 Aug 2015 7:21 PM",2:01:05,NA,NA,NA,128,163,826
+309,Strength Training,Strength Training,"Sat, 29 Aug 2015 7:00 PM",1:30:34,NA,NA,NA,110,154,450
+310,Strength Training,Strength Training,"Thu, 27 Aug 2015 6:55 PM",1:55:36,NA,NA,NA,124,163,730
+311,Strength Training,Strength Training,"Mon, 24 Aug 2015 7:22 PM",2:12:22,NA,NA,NA,127,163,870
+312,Strength Training,Strength Training,"Fri, 21 Aug 2015 7:50 PM",2:00:27,NA,NA,NA,123,164,740
+313,Strength Training,Strength Training,"Mon, 17 Aug 2015 8:06 PM",2:08:19,NA,NA,NA,133,166,958
+314,Strength Training,Strength Training,"Fri, 14 Aug 2015 8:04 PM",1:16:59,NA,NA,NA,125,158,548
+315,Strength Training,Strength Training,"Wed, 12 Aug 2015 7:47 PM",1:51:56,NA,NA,NA,130,167,792
+316,Strength Training,Strength Training,"Mon, 10 Aug 2015 7:48 PM",1:48:54,NA,NA,NA,130,159,787
+317,Strength Training,Strength Training,"Wed, 5 Aug 2015 7:55 PM",2:00:21,NA,NA,NA,125,166,756
+318,Strength Training,Strength Training,"Mon, 3 Aug 2015 7:58 PM",1:47:39,NA,NA,NA,126,162,711
+319,Strength Training,Strength Training,"Fri, 31 Jul 2015 8:25 PM",1:47:59,NA,NA,NA,122,159,668
+320,Strength Training,Strength Training,"Wed, 29 Jul 2015 8:31 PM",1:13:40,NA,NA,NA,112,154,396
+321,Strength Training,Strength Training,"Tue, 28 Jul 2015 9:58 PM",1:01:54,NA,NA,NA,110,141,328
+322,Gondhale Nagar Running,Running,"Sun, 26 Jul 2015 7:07 PM",58:57,10.04,17,5.52,156,169,722
+323,Strength Training,Strength Training,"Sat, 25 Jul 2015 8:28 PM",1:34:14,NA,NA,NA,123,156,604
+324,Strength Training,Strength Training,"Thu, 23 Jul 2015 7:25 PM",1:54:08,NA,NA,NA,117,154,641
+325,Gondhale Nagar Running,Running,"Wed, 22 Jul 2015 8:58 PM",27:08,5.03,9,5.24,162,179,358
+326,Strength Training,Strength Training,"Mon, 20 Jul 2015 7:38 PM",1:48:44,NA,NA,NA,121,168,660
+327,Gondhale Nagar Running,Running,"Sun, 19 Jul 2015 10:41 AM",59:03,10.01,28,5.54,168,177,846
+328,Gondhale Nagar Running,Running,"Wed, 15 Jul 2015 8:23 PM",25:06,5.02,11,5,166,183,356
+329,Gondhale Nagar Strength Training,Strength Training,"Mon, 13 Jul 2015 7:58 PM",1:30:29,NA,NA,NA,131,172,699
+330,Gondhale Nagar Running,Running,"Sun, 12 Jul 2015 6:38 PM",56:49,10.01,19,5.4,134,175,727
+331,Running,Running,"Thu, 11 Jun 2015 8:32 PM",20:17,4.16,22,4.53,NA,NA,300
+332,Running,Running,"Sun, 7 Jun 2015 6:57 PM",57:14,10.05,54,5.42,NA,NA,769
+333,Running,Running,"Thu, 4 Jun 2015 7:34 PM",32:58,6.62,33,4.59,NA,NA,483
+334,Running,Running,"Sun, 26 Apr 2015 6:54 PM",30:24,5.04,29,6.02,NA,NA,392
+335,Running,Running,"Sun, 5 Apr 2015 6:57 PM",42:29,6.39,36,6.39,NA,NA,532
+336,Running,Running,"Sun, 29 Mar 2015 6:10 PM",10:12,1.57,15,6.29,NA,NA,131
+337,Running,Running,"Sun, 22 Mar 2015 6:37 AM",33:29,5.00,57,6.42,NA,NA,417
+338,Running,Running,"Sun, 15 Feb 2015 7:00 AM",37:29,5.04,30,7.26,NA,NA,424
+339,Running,Running,"Sun, 8 Feb 2015 6:25 AM",1:27:39,12.95,592,6.46,NA,NA,1080
+340,Running,Running,"Sat, 7 Feb 2015 7:16 AM",28:13,5.04,27,5.36,NA,NA,406
+341,Running,Running,"Sun, 1 Feb 2015 6:02 PM",32:27,5.33,33,6.05,NA,NA,439
+342,Running,Running,"Mon, 26 Jan 2015 6:51 AM",15:11,2.30,56,6.37,NA,NA,191
+343,Running,Running,"Sun, 18 Jan 2015 6:07 AM",1:47:46,21.59,100,4.59,NA,NA,1661
+344,Running,Running,"Sun, 11 Jan 2015 7:02 AM",1:51:21,18.11,101,6.09,NA,NA,1478
+345,Running,Running,"Tue, 30 Dec 2014 12:11 PM",27:52,5.03,44,5.32,NA,NA,400
+346,Running,Running,"Sun, 28 Dec 2014 12:06 PM",48:58,8.40,65,5.5,NA,NA,676
+347,Running,Running,"Sun, 21 Dec 2014 10:47 AM",1:33:44,15.02,100,6.14,NA,NA,1230
+348,Running,Running,"Sun, 14 Dec 2014 6:06 PM",1:09:59,13.28,72,5.16,NA,NA,1040
+349,Running,Running,"Sun, 14 Dec 2014 6:56 AM",25:50,4.64,32,5.34,NA,NA,369
+350,Running,Running,"Sun, 7 Dec 2014 6:14 AM",2:14:27,21.22,165,6.2,NA,NA,1740
+351,Running,Running,"Sat, 29 Nov 2014 6:30 PM",46:00,5.89,35,7.48,NA,NA,482
+352,Running,Running,"Sun, 23 Nov 2014 7:11 AM",1:48:30,21.41,229,5.04,NA,NA,1646
+353,Running,Running,"Tue, 18 Nov 2014 7:00 PM",15:32,3.08,25,5.03,NA,NA,236
+354,Running,Running,"Sun, 16 Nov 2014 11:03 AM",1:27:31,14.02,96,6.15,NA,NA,1148
+355,Running,Running,"Sat, 15 Nov 2014 11:54 AM",26:01,5.04,34,5.1,NA,NA,391
+356,Running,Running,"Sun, 9 Nov 2014 5:34 PM",1:23:35,14.04,63,5.57,NA,NA,1137
+357,Running,Running,"Sun, 9 Nov 2014 6:36 AM",40:28,6.53,29,6.12,NA,NA,534
+358,Running,Running,"Sat, 8 Nov 2014 7:34 AM",46:59,8.03,80,5.51,NA,NA,647
+359,Running,Running,"Sun, 19 Oct 2014 6:04 AM",1:47:52,18.52,139,5.49,NA,NA,1546
+360,Running,Running,"Sat, 18 Oct 2014 7:40 AM",44:57,7.66,78,5.52,NA,NA,640
+361,Running,Running,"Wed, 15 Oct 2014 6:13 PM",28:04,4.41,59,6.22,NA,NA,375
+362,Running,Running,"Sun, 12 Oct 2014 8:05 PM",32:51,3.62,31,9.05,NA,NA,286
+363,Running,Running,"Sun, 12 Oct 2014 5:53 PM",36:47,6.00,82,6.08,NA,NA,508
+364,Running,Running,"Sun, 12 Oct 2014 5:52 AM",20:46,3.50,40,5.56,NA,NA,294
+365,Running,Running,"Sun, 5 Oct 2014 6:02 AM",1:32:10,15.54,109,5.56,NA,NA,1303
+366,Running,Running,"Wed, 1 Oct 2014 6:40 PM",32:30,4.17,36,7.47,NA,NA,354
+367,Running,Running,"Wed, 1 Oct 2014 6:21 PM",6:59,0.92,6,7.38,NA,NA,75
+368,Running,Running,"Sun, 28 Sep 2014 5:36 PM",1:53:00,15.03,152,7.31,NA,NA,1293
+369,Running,Running,"Sun, 7 Sep 2014 6:17 PM",1:06:47,8.69,96,7.41,NA,NA,740
+370,Running,Running,"Sat, 2 Aug 2014 4:34 AM",1:52:54,15.00,193,7.32,NA,NA,1290
+371,Running,Running,"Sun, 11 May 2014 5:38 AM",2:19:09,20.91,275,6.39,NA,NA,1785
+372,Running,Running,"Tue, 22 Apr 2014 11:00 AM",1:17:59,10.70,146,7.17,NA,NA,921
+373,Running,Running,"Sun, 13 Apr 2014 6:32 AM",56:34,9.68,84,5.5,NA,NA,809
+374,Running,Running,"Sat, 12 Apr 2014 6:31 AM",1:52:55,14.48,132,7.48,NA,NA,1227
+375,Running,Running,"Sat, 5 Apr 2014 6:28 AM",2:50:24,21.11,308,8.04,NA,NA,1763
+376,Running,Running,"Sat, 29 Mar 2014 7:19 AM",1:33:05,10.54,108,8.5,NA,NA,844
+377,Running,Running,"Sat, 29 Mar 2014 6:45 AM",6:29,0.60,6,10.47,NA,NA,42
+378,Running,Running,"Sun, 16 Mar 2014 6:42 AM",1:55:31,20.46,122,5.39,NA,NA,1695
+379,Running,Running,"Sun, 2 Mar 2014 7:31 AM",1:18:59,14.16,130,5.35,NA,NA,1169
+380,Running,Running,"Sun, 19 Jan 2014 6:18 AM",2:11:23,21.60,100,6.05,NA,NA,1817
+381,Running,Running,"Sun, 15 Dec 2013 7:51 AM",2:15:26,21.55,230,6.17,NA,NA,1824
+382,Running,Running,"Wed, 22 May 2013 6:53 PM",37:38,5.24,48,7.11,NA,NA,449
+383,Running,Running,"Tue, 21 May 2013 6:38 PM",39:13,5.29,47,7.25,NA,NA,455
+384,Running,Running,"Tue, 14 May 2013 6:25 PM",36:56,5.14,40,7.11,NA,NA,440
+385,Running,Running,"Sat, 23 Mar 2013 5:52 PM",1:10:08,10.00,82,7.01,NA,NA,855
+386,Running,Running,"Sat, 16 Mar 2013 7:08 PM",7:07,1.01,7,7.01,NA,NA,87
+387,Running,Running,"Fri, 15 Mar 2013 6:53 PM",36:46,5.05,34,7.17,NA,NA,433
+388,Running,Running,"Wed, 13 Mar 2013 6:52 PM",30:11,4.16,25,7.16,NA,NA,356
+389,Running,Running,"Sun, 10 Mar 2013 5:51 PM",1:19:47,10.40,85,7.4,NA,NA,884
+390,Running,Running,"Sun, 17 Feb 2013 7:05 AM",56:55,9.86,81,5.46,NA,NA,818
+391,Running,Running,"Wed, 31 Oct 2012 7:12 AM",38:18,5.17,33,7.24,NA,NA,419
+392,Running,Running,"Mon, 15 Oct 2012 6:10 PM",32:53,4.05,29,8.08,NA,NA,317
+393,Running,Running,"Sat, 13 Oct 2012 5:38 PM",43:21,5.11,35,8.29,NA,NA,392
