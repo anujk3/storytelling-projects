@@ -12,13 +12,6 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	var tip = d3.tip()
-		.attr('class', 'd3-tip')
-		.offset([-10, 0])
-		.html(function(d) {
-			return "<strong>Calories Burnt:</strong> <span style='color:red'>" + d.calories + "</span><br>" +
-				"<strong>Day of Workout:</strong> <span style='color:blue'>" + d.activityStartTime + "</span>";
-		});
 
     // Create a time parser
     var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
@@ -86,7 +79,6 @@
 			return d.totalmins;
 		});
 
-	svg.call(tip);
 
 	d3.queue()
         .defer(d3.csv, "check.csv", function(d) {
