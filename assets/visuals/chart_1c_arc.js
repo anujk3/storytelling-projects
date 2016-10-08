@@ -1,11 +1,11 @@
 (function() {
-    var margin = { top: 30, left: 100, right: 30, bottom: 30},
+    var margin = { top: 30, left: 30, right: 30, bottom: 30},
         height = 400 - margin.top - margin.bottom,
-        width = 780 - margin.left - margin.right;
+        width = 585 - margin.left - margin.right;
 
-    console.log("Building chart 2");
+    console.log("Building chart 1c_arc");
 
-    var svg = d3.select("#chart-2b")
+    var svg = d3.select("#chart_1c_arc")
         .append("svg")
         .attr("height", height + margin.top + margin.bottom)
         .attr("width", width + margin.left + margin.right)
@@ -67,8 +67,8 @@
 		return aggregates;
 	}
 
-	var colorScale = d3.scaleOrdinal().range(['#79C887', '#BFB0D1', '#FFBF8F', 'lightblue']);
-	//var colorScale = d3.scaleLinear().range(["pink", 'lightblue']);
+	var colorScale = d3.scaleOrdinal().range(['#79C887', '#BFB0D1', '#FFBF8F', "pink"]);
+	// var colorScale = d3.scaleLinear().range(["green", 'lightblue']);
 
 	var radius = 100;
 
@@ -88,7 +88,7 @@
 	svg.call(tip);
 
 	d3.queue()
-        .defer(d3.csv, "check.csv", function(d) {
+        .defer(d3.csv, "full_data.csv", function(d) {
             // While we're reading the data in, parse each date
             // into a datetime object so it isn't just a string
             // save it as 'd.datetime'
@@ -121,10 +121,13 @@
             })
             .entries(datapoints);// and here is our data
 
-        console.log(nested);
+        // console.log(nested);
 
 		var aggregates = create_new_datapoints(nested);
-		console.log(aggregates);
+		// console.log(aggregates);
+
+		var maxMinutes = d3.max(aggregates, function(d) { return d.totalmins; });
+		colorScale.domain([0, maxMinutes]);
 		// The pie generator is going to convert
 		// our datapoints into a series of
 		// start and end angles
@@ -151,17 +154,6 @@
 			.on('mouseover', tip.show)
 			.on('mouseout', tip.hide);
 
-		// g.append("text")
-		// 	.attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
-		// 	.attr("dy", "0.35em")
-		// 	.text(function(d) { return d.data.activity; })
-		// 	.attr("text-anchor", function(d) {
-		// 		if(d.startAngle > Math.PI) {
-		// 			return "middle"
-		// 		} else {
-		// 			return "middle"
-		// 		}
-		// 	});
 
 
     }

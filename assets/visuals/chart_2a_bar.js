@@ -1,5 +1,5 @@
 (function() {
-	var margin = { top: 30, left: 100, right: 30, bottom: 30},
+	var margin = { top: 30, left: 50, right: 30, bottom: 30},
 		height = 400 - margin.top - margin.bottom,
 		width = 780 - margin.left - margin.right;
 
@@ -19,7 +19,7 @@
 			return "<strong>Calories Burnt:</strong> <span style='color:red'>" + d.calories + "</span>";
 		});
 
-	var svg = d3.select("#chart-1")
+	var svg = d3.select("#chart_2a_bar")
 		.append("svg")
 		.attr("height", height + margin.top + margin.bottom)
 		.attr("width", width + margin.left + margin.right)
@@ -52,7 +52,7 @@
 	}
 
 	d3.queue()
-		.defer(d3.csv, "check.csv", function(d) {
+		.defer(d3.csv, "full_data.csv", function(d) {
 			// While we're reading the data in, parse each date
 			// into a datetime object so it isn't just a string
 			// save it as 'd.datetime'
@@ -77,7 +77,7 @@
 		// Get the max and min of datetime and Close,
 		// then use that to set the domain of your scale
 
-		console.log(datapoints);
+		// console.log(datapoints);
 
 		// NOTE:I've done it for the datetime, you do it for the close price
 		var timeCalories = datapoints.map(function(d) { return d.activityStartTime; });

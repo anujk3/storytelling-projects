@@ -1,25 +1,17 @@
 (function() {
-	var margin = { top: 30, left: 100, right: 30, bottom: 30},
+	var margin = { top: 30, left: 30, right: 30, bottom: 30},
 		height = 400 - margin.top - margin.bottom,
 		width = 780 - margin.left - margin.right;
 
-	console.log("Building chart 4");
+	console.log("Building chart 3");
 
-	var svg = d3.select("#chart-4")
+	var svg = d3.select("#chart_3a_pie")
 		.append("svg")
 		.attr("height", height + margin.top + margin.bottom)
 		.attr("width", width + margin.left + margin.right)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	var tip = d3.tip()
-		.attr('class', 'd3-tip')
-		.offset([-10, 0])
-		.html(function(d) {
-			return "<strong>Activity:</strong> <span style='color:red'>" + d.data.activity + "</span><br>";
-		});
-
-	svg.call(tip);
 
 	// Create a time parser
 	var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
@@ -46,51 +38,31 @@
 		}
 	}
 
-	function create_new_datapoints(nested){
-		console.log(nested);
-		var aggregates = [];
-		var element = {"Cardio":0, "Running":0, "Strength Training":0, "Treadmill Running":0};
-
-		for (i=0;i < nested.length; i++){
-			element[nested[i].activityType] = element[nested[i].activityType] + parseFloat(nested[i].timemins);
-		}
-		console.log(element);
-
-		for (var key in element){
-			var element_to_push = {};
-			element_to_push.activity = key;
-			element_to_push.totalmins = element[key];
-
-			aggregates.push(element_to_push);
-		}
-		// console.log(aggregates);
-		return aggregates;
-	}
-
-	var colorScale = d3.scaleOrdinal().range(['#79C887', '#BFB0D1', '#FFBF8F', 'lightblue']);
-
 	var xPositionScale = d3.scalePoint()
+		.domain(['SchemeCategory10', 'SchemeCategory20', 'SchemeCategory20b', 'SchemeCategory20c'])
 		.range([0, width])
-		.padding(0.5);
+		.padding(0.32);
 
-	var radius = 60;
+	var colorScale1 = d3.scaleOrdinal(d3.schemeCategory10);
+	var colorScale2 = d3.scaleOrdinal(d3.schemeCategory20);
+	var colorScale3 = d3.scaleOrdinal(d3.schemeCategory20b);
+	var colorScale4 = d3.scaleOrdinal(d3.schemeCategory20c);
+
+	var radius = 80;
 
 	var arc = d3.arc()
 		.outerRadius(radius)
 		.innerRadius(0);
 
-	var labelArc = d3.arc()
-		.outerRadius(radius+10)
-		.innerRadius(radius+10);
 
 	var pie = d3.pie()
 		.value(function(d) {
-			return d.totalmins;
+			return d.timemins;
 		});
 
 
 	d3.queue()
-		.defer(d3.csv, "check.csv", function(d) {
+		.defer(d3.csv, "full_data.csv", function(d) {
 			// While we're reading the data in, parse each date
 			// into a datetime object so it isn't just a string
 			// save it as 'd.datetime'
@@ -112,58 +84,84 @@
 		.await(ready);
 
 	function ready(error, datapoints) {
-		// Get the max and min of datetime and Close,
-		// then use that to set the domain of your scale
 
-		// console.log(datapoints);
 
 		var nested = d3.nest() // fire up d3.nest
 			.key(function(d) { // group them by activity type
-				return d.activityStartTime.getFullYear();
+				return d.activityType;
 			})
 			.entries(datapoints);// and here is our data
 
 		console.log(nested);
-		var yearData = nested.map( function(d) { return d.key });
-		xPositionScale.domain(yearData);
 
-
-
+		var schemes = ['SchemeCategory10', 'SchemeCategory20', 'SchemeCategory20b', 'SchemeCategory20c'];
 
 		var charts = svg.selectAll(".pie-charts")
 			.data(nested)
 			.enter().append("g")
-			.attr("transform", function(d) {
+			.attr("transform", function(d, i) {
 				var yPos = height/2;
-				var xPos = xPositionScale(d.key);
-				return "translate(" + xPos + "," + yPos + ")"
+				var xPos = xPositionScale(schemes[i]);
+				return "translate(" + xPos + "," + yPos + ")";
 			});
 
 		charts.append("text")
 			.attr("x", 0)
 			.attr("y", +100)
 			.attr("text-anchor", "middle")
-			.text(function(d) {
-				return d.key
+			.text(function(d, i) {
+				return schemes[i];
 			});
 
-
 		charts.each(function(d) {
-			var projectData = d.values;
-			var aggregates = create_new_datapoints(projectData);
-			console.log(aggregates);
-			var g = d3.select(this);
 
-			g.selectAll("path")
-				.data(pie(aggregates))
-				.enter().append("path")
-				.attr("d", arc)
-				.attr("fill", function(d) {
-					return colorScale(d.data.activity);
-				})
-				.on('mouseover', tip.show)
-				.on('mouseout', tip.hide);
-		})
+			if (d.key == "Running"){
+				var projectData = d.values;
+				var g = d3.select(this);
+
+				g.selectAll("path")
+					.data(pie(projectData))
+					.enter().append("path")
+					.attr("d", arc)
+					.attr("fill", function(d) {
+						return colorScale1(d.data.timemins);
+					});
+			} else if (d.key == "Strength Training"){
+				var projectData = d.values;
+				var g = d3.select(this);
+
+				g.selectAll("path")
+					.data(pie(projectData))
+					.enter().append("path")
+					.attr("d", arc)
+					.attr("fill", function(d) {
+						return colorScale2(d.data.timemins);
+					});
+			} else if (d.key == "Cardio"){
+				var projectData = d.values;
+				var g = d3.select(this);
+
+				g.selectAll("path")
+					.data(pie(projectData))
+					.enter().append("path")
+					.attr("d", arc)
+					.attr("fill", function(d) {
+						return colorScale3(d.data.timemins);
+					});
+			} else {
+				var projectData = d.values;
+				var g = d3.select(this);
+
+				g.selectAll("path")
+					.data(pie(projectData))
+					.enter().append("path")
+					.attr("d", arc)
+					.attr("fill", function(d) {
+						return colorScale4(d.data.timemins);
+					});
+			}
+
+		});
 
 	}
 })();

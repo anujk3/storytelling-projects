@@ -1,7 +1,7 @@
 (function() {
-	var margin = { top: 30, left: 100, right: 30, bottom: 30},
-		height = 400 - margin.top - margin.bottom,
-		width = 780 - margin.left - margin.right;
+	var margin = {top: 40, right: 70, bottom: 40, left: 70},
+		width = 860 - margin.left - margin.right,
+		height = 400 - margin.top - margin.bottom;
 
 	// We'll set the domain once we've read in
 	// the data
@@ -16,11 +16,10 @@
 		.attr('class', 'd3-tip')
 		.offset([-10, 0])
 		.html(function(d) {
-			return "<strong>Calories Burnt:</strong> <span style='color:red'>" + d.calories + "</span><br>" +
-					"<strong>Day of Workout:</strong> <span style='color:blue'>" + d.activityStartTime + "</span>";
+			return "<strong>Minutes Spent:</strong> <span style='color:red'>" + d.totalmins + "</span>";
 		});
 
-	var svg = d3.select("#chart-1b")
+	var svg = d3.select("#chart_1a_bar")
 		.append("svg")
 		.attr("height", height + margin.top + margin.bottom)
 		.attr("width", width + margin.left + margin.right)
@@ -28,6 +27,7 @@
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	svg.call(tip);
+
 
 	// Create a time parser
 	var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
@@ -41,19 +41,46 @@
 			// console.log(hh, mm, ss);
 			num_mins = hh*60 + mm;
 			// console.log(num_mins + "." + ss);
-			return num_mins + "." + ss;
+			total_minutes = num_mins + "." + ss;
+			return parseInt(total_minutes);
 		}else{
 			mm = (+curr[0]);
 			ss = (+curr[1]);
 			// console.log(mm, ss);
 			total_mins = (mm);
 			// console.log(total_mins + "." + ss);
-			return total_mins + "." + ss;
+			total_minutes = total_mins + "." + ss;
+			return parseInt(total_minutes);
 		}
 	}
 
+	function create_new_datapoints(nested){
+		console.log(nested);
+
+		var aggregates = [];
+
+		for (i in nested){
+			console.log(i);
+			var element = {};
+			var totalmins = 0;
+			// console.log(nested[i].key);
+			for (j in nested[i].values){
+				// console.log(nested[i].values[j].timemins);
+				totalmins = totalmins + nested[i].values[j].timemins;
+			}
+			element.activity = nested[i].key;
+			element.totalmins = totalmins;
+			aggregates.push(element);
+		}
+
+		// console.log(aggregates);
+		return aggregates;
+	}
+
+
+
 	d3.queue()
-		.defer(d3.csv, "check.csv", function(d) {
+		.defer(d3.csv, "full_data.csv", function(d) {
 			// While we're reading the data in, parse each date
 			// into a datetime object so it isn't just a string
 			// save it as 'd.datetime'
@@ -75,43 +102,59 @@
 		.await(ready);
 
 	function ready(error, datapoints) {
+
 		// Get the max and min of datetime and Close,
 		// then use that to set the domain of your scale
 
-		console.log(datapoints);
+		// console.log(datapoints);
 
-		// NOTE:I've done it for the datetime, you do it for the close price
-		var timeCalories = datapoints.map(function(d) { return d.activityStartTime; });
+		var nested = d3.nest() // fire up d3.nest
+			.key(function(d) { // group them by activity type
+				return d.activityType;
+			})
+			.entries(datapoints);// and here is our data
+
+		// console.log(nested);
+
+		var aggregates = create_new_datapoints(nested);
+		// console.log(aggregates);
+
+		var activities = aggregates.map(function(d) { return d.activity; });
 		// console.log(activities);
-		xPositionScale.domain(timeCalories);
+		xPositionScale.domain(activities);
 
-		var maxCalories = d3.max(datapoints, function(d) { return d.calories; });
-		yPositionScale.domain([0, maxCalories]);
-
+		var totalmins = d3.max(aggregates, function(d) { return d.totalmins; });
+		// console.log(totalminutes);
+		yPositionScale.domain([0, totalmins]);
 
 		svg.selectAll(".bar")
-			.data(datapoints)
+			.data(aggregates)
 			.enter()
 			.append("rect")
 			.attr("class", "bar")
 			.attr("x", function(d) {
 				console.log(d);
-				return xPositionScale(d.activityStartTime);
+				return xPositionScale(d.activity);
 			})
 			.attr("y", function(d) {
-				return yPositionScale(d.calories);
+				return yPositionScale(d.totalmins);
 			})
 			.attr("width", xPositionScale.bandwidth())
 			.attr("height", function(d) {
-				return height - yPositionScale(d.calories);
+				return height - yPositionScale(d.totalmins);
 			})
 			.on('mouseover', tip.show)
 			.on('mouseout', tip.hide);
 
-
+		// svg.append("text")
+		// 	.attr("x", width/2)
+		// 	.attr("y", 0)
+		// 	.attr("text-anchor", "right")
+		// 	.attr("font-weight", "500")
+		// 	.text("Total Minutes Spent on Various Activities");
 
 		// Set up our x axis
-		var xAxis = d3.axisBottom(xPositionScale).tickFormat("");
+		var xAxis = d3.axisBottom(xPositionScale);
 
 		svg.append("g")
 			.attr("class", "x axis")
@@ -129,7 +172,8 @@
 			.attr("y", 6)
 			.attr("dy", ".71em")
 			.style("text-anchor", "end")
-			.text("Calories Burnt");
+			.text("Total Minutes");
 
-	}
+	};
+
 })();

@@ -1,11 +1,11 @@
 (function() {
-	var margin = { top: 30, left: 100, right: 30, bottom: 30},
+	var margin = { top: 30, left: 50, right: 50, bottom: 30},
 		height = 400 - margin.top - margin.bottom,
 		width = 780 - margin.left - margin.right;
 
-	console.log("Building chart 3");
+	console.log("Building chart 4");
 
-	var svg = d3.select("#chart-3")
+	var svg = d3.select("#chart_4a_pie")
 		.append("svg")
 		.attr("height", height + margin.top + margin.bottom)
 		.attr("width", width + margin.left + margin.right)
@@ -48,12 +48,32 @@
 
 	function create_new_datapoints(nested){
 		console.log(nested);
+		var aggregates = [];
+		var element = {"Cardio":0, "Running":0, "Strength Training":0, "Treadmill Running":0};
 
+		for (i=0;i < nested.length; i++){
+			element[nested[i].activityType] = element[nested[i].activityType] + parseFloat(nested[i].timemins);
+		}
+		console.log(element);
+
+		for (var key in element){
+			var element_to_push = {};
+			element_to_push.activity = key;
+			element_to_push.totalmins = element[key];
+
+			aggregates.push(element_to_push);
+		}
+		// console.log(aggregates);
+		return aggregates;
 	}
 
 	var colorScale = d3.scaleOrdinal().range(['#79C887', '#BFB0D1', '#FFBF8F', 'lightblue']);
 
-	var radius = 100;
+	var xPositionScale = d3.scalePoint()
+		.range([0, width])
+		.padding(0.1);
+
+	var radius = 60;
 
 	var arc = d3.arc()
 		.outerRadius(radius)
@@ -65,22 +85,12 @@
 
 	var pie = d3.pie()
 		.value(function(d) {
-			return d.timemins;
+			return d.totalmins;
 		});
 
 
-	// Create your scales, but ONLY give them a range
-	// (you'll set the domain once you read in your data)
-	var xPositionScale = d3.scaleLinear().range([0, width]);
-	var yPositionScale = d3.scaleLinear().range([height, 0]);
-
-	// Create a d3.line function that uses your scales to
-	// determine the x and y of the line
-	// Make it curve a little if you're feeling fun. I personally like d3.curveMonotoneX
-
-
 	d3.queue()
-		.defer(d3.csv, "check.csv", function(d) {
+		.defer(d3.csv, "full_data.csv", function(d) {
 			// While we're reading the data in, parse each date
 			// into a datetime object so it isn't just a string
 			// save it as 'd.datetime'
@@ -109,40 +119,49 @@
 
 		var nested = d3.nest() // fire up d3.nest
 			.key(function(d) { // group them by activity type
-				return d.activityType;
+				return d.activityStartTime.getFullYear();
 			})
 			.entries(datapoints);// and here is our data
 
 		console.log(nested);
-
-		var new_data = create_new_datapoints(nested);
-
-		var pieContainer = svg
-			.append("g")
-			.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+		var yearData = nested.map( function(d) { return d.key });
+		xPositionScale.domain(yearData);
 
 
-		// The pie generator is going to convert
-		// our datapoints into a series of
-		// start and end angles
-		console.log("Using our pie generator");
-		console.log(pie(datapoints));
-
-		// When using the pie generator
-		// bind your pie(datapoints), not
-		// just your datapoints
-
-		var g = pieContainer.selectAll(".arc")
-			.data(pie(datapoints))
+		var charts = svg.selectAll(".pie-charts")
+			.data(nested)
 			.enter().append("g")
-			.attr("class", "arc");
+			.attr("transform", function(d) {
+				var yPos = height/2;
+				var xPos = xPositionScale(d.key);
+				return "translate(" + xPos + "," + yPos + ")"
+			});
 
-		g.append("path")
-			.attr("d", arc)
-			.style("fill", function(d) { return colorScale(d.data.timemins); });
+		charts.append("text")
+			.attr("x", 0)
+			.attr("y", +100)
+			.attr("text-anchor", "middle")
+			.text(function(d) {
+				return d.key
+			});
 
 
+		charts.each(function(d) {
+			var projectData = d.values;
+			var aggregates = create_new_datapoints(projectData);
+			console.log(aggregates);
+			var g = d3.select(this);
 
+			g.selectAll("path")
+				.data(pie(aggregates))
+				.enter().append("path")
+				.attr("d", arc)
+				.attr("fill", function(d) {
+					return colorScale(d.data.activity);
+				})
+				.on('mouseover', tip.show)
+				.on('mouseout', tip.hide);
+		})
 
 	}
 })();

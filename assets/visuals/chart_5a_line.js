@@ -5,12 +5,15 @@
 
 	console.log("Building chart 5");
 
-	var svg = d3.select("#chart-5")
+	var svg = d3.select("#chart_5a_line")
 		.append("svg")
 		.attr("height", height + margin.top + margin.bottom)
 		.attr("width", width + margin.left + margin.right)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+	var colorScale = d3.scaleOrdinal(d3.schemeCategory20);
 
 	var tip = d3.tip()
 		.attr('class', 'd3-tip')
@@ -20,9 +23,6 @@
 		});
 
 	svg.call(tip);
-
-	var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-
 
 	// Create a time parser
 	var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
@@ -109,7 +109,7 @@
 
 
 	d3.queue()
-		.defer(d3.csv, "check.csv", function(d) {
+		.defer(d3.csv, "full_data.csv", function(d) {
 			// While we're reading the data in, parse each date
 			// into a datetime object so it isn't just a string
 			// save it as 'd.datetime'
@@ -150,42 +150,7 @@
 		var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 		console.log(nested);
-		// Draw your dots
-		// When coloring them, an if statement might come in handy!
-		// svg.selectAll(".running-circle")
-		// 	.data(nested)
-		// 	.enter().append("circle")
-		// 	.attr("r", function (d) {
-		// 			return 2;
-		// 	})
-		// 	.attr("cx", function(d) {
-		// 		return xPositionScale(months[d.values.activityStartTime.getMonth()]);
-		// 	})
-		// 	.attr("cy", function(d) {
-		// 		return yPositionScale(d.values.distance);
-		// 	})
-		// 	.attr("fill", function (d) {
-		// 		if (d.Country == "France"){
-		// 			return "blue";
-		// 		}else {
-		// 			return "gray";
-		// 		}
-		// 	});
 
-		// charts.each(function(d) {
-		// 	var projectData = d.values;
-		// 	var aggregates = create_new_datapoints(projectData);
-		// 	console.log(aggregates);
-		// 	var g = d3.select(this);
-		//
-		// 	g.selectAll("path")
-		// 		.data(pie(aggregates))
-		// 		.enter().append("path")
-		// 		.attr("d", arc)
-		// 		.attr("fill", function(d) {
-		// 			return colorScale(d.data.activity);
-		// 		})
-		// })
 		// Draw your lines
 		// When coloring them, an if statement might come in handy!
 		svg.selectAll(".run-lines")
@@ -211,6 +176,30 @@
 			.on('mouseover', tip.show)
 			.on('mouseout', tip.hide);
 
+		svg.selectAll("text")
+			.data(aggregates)
+			.enter().append("text")
+			.attr("y", function(d) {
+					var lastDataPoint = d.values[d.values.length - 1];
+					return yPositionScale(lastDataPoint.mileage);
+			})
+			.attr("x", width-15)
+			.text(function(d) {
+				return d.key;
+			})
+			.attr("dy", 5)
+			.attr("dx", 4)
+			.attr("fill", function(d){
+				return "blue";
+			})
+			.attr("opacity", function (d) {
+				if(d.key=="2016"){
+					return 0;
+				}
+
+			})
+			.attr("font-size", 12);
+
 
 		// Add your axes
 		var xAxis = d3.axisBottom(xPositionScale);
@@ -221,8 +210,14 @@
 
 		var yAxis = d3.axisLeft(yPositionScale);
 		svg.append("g")
-			.attr("class", "axis y-axis")
-			.call(yAxis);
+			.attr("class", "y axis")
+			.call(yAxis)
+			.append("text")
+			.attr("transform", "rotate(-90)")
+			.attr("y", 6)
+			.attr("dy", ".71em")
+			.style("text-anchor", "end")
+			.text("Kilometers(km)");
 
 
 	}

@@ -22,7 +22,8 @@
 	<!-- Main Style -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	<style>
-		svg { background: #f9f9f9; }
+		/*svg { background: #f9f9f9; }*/
+
 		/* entire container, keeps perspective */
 		.flip-container {
 			perspective: 1000px;
@@ -67,19 +68,39 @@
 		}
 
 		.darkback{
-			background: #e6e6e6;
+			background: #f9f9f9;
 		}
 
 		body { font-family: Helvetica; }
 
-		#chart-6 .bar,
-		#chart-6 .bar  {
+		#chart_1a_bar .bar,
+		#chart-1a_bar .bar  {
 			fill: lightblue;
 		}
 
-		#chart-6 .bar:hover,
-		#chart-6 .bar:hover {
+		#chart_1a_bar .bar:hover,
+		#chart_1a_bar .bar:hover {
 			fill: steelblue;
+		}
+
+		#chart_2a_bar .bar,
+		#chart-2a_bar .bar  {
+			fill: pink;
+		}
+
+		#chart_2a_bar .bar:hover,
+		#chart_2a_bar .bar:hover {
+			fill: red;
+		}
+
+		#chart_2b_bar .bar,
+		#chart-2b_bar .bar  {
+			fill: pink;
+		}
+
+		#chart_2b_bar .bar:hover,
+		#chart_2b_bar .bar:hover {
+			fill: red;
 		}
 
 		text {
@@ -255,23 +276,31 @@
 <section id="call-to-action1">
 	<div class="container">
 		<div class="call-to-content wow fadeInUp darkback">
-			<div id="chart-6">
-				<h3> Total Minutes Spent on Various Activities </h3>
+			<div id="chart_1a_bar">
+				<h3>Total Minutes Spent on Various Activities (Year 2012-16) - I</h3>
 			</div>
 			<hr>
-			<div id="chart-2">
-				<h3> Total Minutes Spent on Various Activities </h3>
-				<p> Couldn't get the labels working properly (Need to learn and make a legend soon)</p>
-				<p> Some interactions might come handy by the next time to improve this. </p>
-
-			</div>
-			<div id="chart-2b">
-				<h3> Total Minutes Spent on Various Activities </h3>
-				<p> TOOLTIPS DID HELP WITH THE LABELS!!! </p>
-
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="wow fadeInLeft">
+						<div id="chart_1b_radial">
+							<h3>II</h3>
+							<p> Radial Charts look awesome but sure are difficult to read!!! </p>
+							<p> Logarithm of the time taken shown with activities </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="wow fadeInRight">
+						<div id="chart_1c_arc">
+							<h3>III</h3>
+							<p> TOOLTIPS DID HELP WITH THE LABELS!!! </p>
+							<p>Need to learn to make legends and nice interactions to make it intuitive!!</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
 </section>
 <br><br>
 <!-- End call to action -->
@@ -279,14 +308,15 @@
 <section id="call-to-action2">
 	<div class="container">
 		<div class="call-to-content wow fadeInUp darkback">
-			<div id="chart-1">
+			<div id="chart_2a_bar">
 				<h3> Total Calories Burnt Doing for all the activites done from 2012-2016 </h3>
-				<p> Messed up the x-axis because of a lot of values </p>
+				<p> Messed up the x-axis because of a lot of date values </p>
+				<p> Need to put in some transitions or select a range of values to show at a time</p>
 			</div>
 			<hr>
-			<div id="chart-1b">
-				<p> Doesn't it look amazing by just taking out so many values from the x-axis</p>
+			<div id="chart_2b_bar">
 				<h3>Tooltips show both the calories burnt and the workout dates</h3>
+				<p> Doesn't it look amazing by just taking out so many values from the x-axis</p>
 			</div>
 		</div>
 	</div>
@@ -296,8 +326,9 @@
 <section id="call-to-action3">
 	<div class="container">
 		<div class="call-to-content wow fadeInUp darkback">
-			<div id="chart-3">
-				<h3> When you just end up with a crazy looking visualization and you don't know how you got it </h3>
+			<div id="chart_3a_pie">
+				<h3> When you just end up with a crazy looking visualization, why not use it to see some color scales</h3>
+				<p>Seeing these categorical color scales, SchemeCategory20c looks the best</p>
 			</div>
 		</div>
 	</div>
@@ -309,8 +340,10 @@
 <section id="call-to-action4">
 	<div class="container">
 		<div class="call-to-content wow fadeInUp darkback">
-			<div id="chart-4">
-				<h3> Various activities done during each year (by their percentages) </h3>
+			<div id="chart_4a_pie">
+				<h3> Activities(by their percentages) done during each year</h3>
+				<p>Adding some interactions can make this so much more amazing.</p>
+				<p>Tooltips came for the rescue right now !!!</p>
 			</div>
 		</div>
 	</div>
@@ -320,7 +353,7 @@
 <section id="call-to-action5">
 	<div class="container">
 		<div class="call-to-content wow fadeInUp darkback">
-			<div id="chart-5">
+			<div id="chart_5a_line">
 				<h3> The most amazing visualization attempted till now </h3>
 				<h3></h3> Was crazy to modify the data in JAVASCRIPT !!! </h3>
 				<h3>For every month of every year (2012-2016), what was the running mileage</h3>
@@ -423,15 +456,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 
-<script type="text/javascript" src="assets/visuals/chart-1.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-1b.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-2.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-2b.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-3.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-4.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-5.js"></script>
-<script type="text/javascript" src="assets/visuals/chart-6.js"></script>
-
+<script type="text/javascript" src="assets/visuals/chart_1a_bar.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_1b_radial.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_1c_arc.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_2a_bar.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_2b_bar.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_3a_pie.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_4a_pie.js"></script>
+<script type="text/javascript" src="assets/visuals/chart_5a_line.js"></script>
 
 
 </body>
