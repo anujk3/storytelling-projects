@@ -94,7 +94,7 @@
 			.append("rect")
 			.attr("class", "bar")
 			.attr("x", function(d) {
-				console.log(d);
+				// console.log(d);
 				return xPositionScale(d.activityStartTime);
 			})
 			.attr("y", function(d) {

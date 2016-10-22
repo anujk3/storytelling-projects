@@ -158,11 +158,11 @@
 			.enter().append("path")
 			.attr("d", function(d) {
 				// it's a function because each d (shape of path) is different
-				console.log(d);
+				// console.log(d);
 				// all of our data points seem to be hiding in d.values
 				// because that's just what d3.nest does and it puts the
 				// name of the group in d.key
-				console.log(d.values);
+				// console.log(d.values);
 				// so let's feed our line function d.values
 				return line(d.values);
 			})
