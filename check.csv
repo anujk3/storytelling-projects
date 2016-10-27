@@ -1,0 +1,376 @@
+id,activityName,activityType,startTime,distance,elevationGain,avgSpeed,avgHR,maxHR,calories,totalMins,activityLevel
+0,Indoor Cardio,Cardio,2016-08-12 19:42:00,0.0,0.0,0.0,125.0,150.0,344,30.08,Light
+1,Running,Running,2016-08-12 18:59:00,7.16,0.0,5.47,142.0,163.0,583,41.27,Moderate
+2,Strength Training,Strength Training,2016-08-11 20:26:00,0.0,0.0,0.0,113.0,157.0,901,94.33,Very Light
+3,Running,Running,2016-08-09 20:55:00,6.3,0.0,6.13,135.0,157.0,503,39.09,Moderate
+4,Indoor Cardio,Cardio,2016-08-08 21:35:00,1.76,0.0,0.0,123.0,175.0,389,35.19,Light
+5,Indoor Cardio,Cardio,2016-08-08 20:36:00,2.56,0.0,0.0,108.0,148.0,452,51.25,Very Light
+6,Running,Running,2016-08-06 20:46:00,4.5,0.0,5.39,139.0,156.0,346,25.24,Moderate
+7,Indoor Cardio,Cardio,2016-08-06 20:22:00,0.0,0.0,0.0,111.0,147.0,194,21.01,Very Light
+8,Indoor Cardio,Cardio,2016-08-06 19:55:00,0.0,0.0,0.0,117.0,149.0,244,23.56,Light
+9,Running,Running,2016-08-06 19:31:00,3.87,0.0,6.0,134.0,155.0,299,23.11,Moderate
+10,Strength Training,Strength Training,2016-08-05 20:39:00,0.0,0.0,0.0,121.0,175.0,926,84.17,Light
+11,Running,Running,2016-08-03 20:51:00,5.81,0.0,6.19,148.0,173.0,559,36.43,Moderate
+12,Running,Running,2016-08-03 20:41:00,1.15,0.0,5.49,121.0,137.0,70,6.42,Light
+13,Running,Running,2016-08-02 21:54:00,1.41,0.0,5.21,139.0,163.0,100,7.31,Moderate
+14,Strength Training,Strength Training,2016-08-02 20:35:00,0.0,0.0,0.0,105.0,149.0,661,78.08,Very Light
+15,Indoor Cardio,Cardio,2016-07-30 20:35:00,0.0,0.0,0.0,101.0,131.0,134,17.11,Very Light
+16,Strength Training,Strength Training,2016-07-28 19:26:00,0.0,0.0,0.0,114.0,167.0,833,83.18,Light
+17,Strength Training,Strength Training,2016-07-27 21:17:00,0.0,0.0,0.0,124.0,152.0,483,41.1,Light
+18,Running,Running,2016-07-26 20:41:00,6.39,0.0,5.32,147.0,166.0,541,35.2,Moderate
+19,Strength Training,Strength Training,2016-07-25 20:47:00,0.0,0.0,0.0,112.0,147.0,717,74.11,Very Light
+20,Strength Training,Strength Training,2016-07-23 20:13:00,0.0,0.0,0.0,123.0,178.0,1341,116.35,Light
+21,Indoor Cardio,Cardio,2016-07-22 20:50:00,0.0,0.0,0.0,111.0,135.0,359,37.41,Very Light
+22,Strength Training,Strength Training,2016-07-20 21:06:00,0.0,0.0,0.0,121.0,157.0,710,63.28,Light
+23,Strength Training,Strength Training,2016-07-19 20:26:00,0.0,0.0,0.0,116.0,166.0,1000,97.07,Light
+24,Strength Training,Strength Training,2016-07-18 20:51:00,0.0,0.0,0.0,124.0,163.0,860,73.57,Light
+25,Strength Training,Strength Training,2016-07-16 20:41:00,0.0,0.0,0.0,113.0,154.0,651,65.58,Very Light
+26,Strength Training,Strength Training,2016-07-15 20:22:00,0.0,0.0,0.0,108.0,176.0,812,95.06,Very Light
+27,Strength Training,Strength Training,2016-07-14 20:39:00,0.0,0.0,0.0,123.0,183.0,962,83.44,Light
+28,Running,Running,2016-07-13 21:17:00,4.91,0.0,6.45,141.0,159.0,476,33.07,Moderate
+29,Indoor Cardio,Cardio,2016-07-13 20:31:00,0.0,0.0,0.0,94.0,142.0,200,29.46,Very Light
+30,Indoor Cardio,Cardio,2016-07-12 20:46:00,0.0,0.0,0.0,118.0,165.0,539,50.1,Light
+31,Indoor Cardio,Cardio,2016-07-11 21:19:00,0.0,0.0,0.0,110.0,143.0,241,25.48,Very Light
+32,Indoor Cardio,Cardio,2016-07-11 20:42:00,0.0,0.0,0.0,105.0,144.0,165,19.31,Very Light
+33,Running,Running,2016-07-11 20:29:00,2.25,0.0,5.42,133.0,153.0,163,12.5,Moderate
+34,Strength Training,Strength Training,2016-07-09 18:35:00,0.0,0.0,0.0,118.0,158.0,887,82.42,Light
+35,Strength Training,Strength Training,2016-07-08 18:41:00,0.0,0.0,0.0,112.0,133.0,587,60.05,Very Light
+36,Strength Training,Strength Training,2016-07-07 11:05:00,0.0,0.0,0.0,122.0,175.0,1250,109.19,Light
+37,Strength Training,Strength Training,2016-07-06 21:50:00,0.0,0.0,0.0,93.0,142.0,407,61.54,Very Light
+38,Strength Training,Strength Training,2016-07-05 20:10:00,0.0,0.0,0.0,100.0,134.0,674,86.26,Very Light
+39,Strength Training,Strength Training,2016-07-05 18:50:00,0.0,0.0,0.0,113.0,160.0,674,67.58,Very Light
+40,Strength Training,Strength Training,2016-07-04 20:42:00,0.0,0.0,0.0,118.0,157.0,1405,130.45,Light
+41,Strength Training,Strength Training,2016-07-02 13:20:00,0.0,0.0,0.0,113.0,146.0,1046,107.08,Very Light
+42,Strength Training,Strength Training,2016-06-27 20:32:00,0.0,0.0,0.0,124.0,181.0,1567,133.39,Light
+43,Strength Training,Strength Training,2016-06-25 19:58:00,0.0,0.0,0.0,108.0,157.0,1123,123.22,Very Light
+44,Strength Training,Strength Training,2016-06-17 18:35:00,0.0,0.0,0.0,106.0,174.0,693,80.06,Very Light
+45,Strength Training,Strength Training,2016-06-16 21:05:00,0.0,0.0,0.0,104.0,141.0,434,51.47,Very Light
+46,Strength Training,Strength Training,2016-06-13 21:30:00,0.0,0.0,0.0,123.0,174.0,647,56.21,Light
+47,Strength Training,Strength Training,2016-06-12 07:40:00,0.0,0.0,0.0,135.0,166.0,995,73.41,Moderate
+48,Strength Training,Strength Training,2016-06-11 19:04:00,0.0,0.0,0.0,114.0,147.0,951,94.03,Light
+49,Strength Training,Strength Training,2016-06-10 18:14:00,0.0,0.0,0.0,110.0,166.0,953,102.25,Very Light
+50,Strength Training,Strength Training,2016-06-09 20:20:00,0.0,0.0,0.0,116.0,168.0,1215,116.46,Light
+51,Strength Training,Strength Training,2016-06-06 20:43:00,0.0,0.0,0.0,128.0,170.0,1042,84.32,Light
+52,Strength Training,Strength Training,2016-06-04 19:40:00,0.0,0.0,0.0,109.0,166.0,948,101.49,Very Light
+53,Strength Training,Strength Training,2016-06-04 17:04:00,0.0,0.0,0.0,128.0,174.0,1556,126.03,Light
+54,Strength Training,Strength Training,2016-06-02 20:44:00,0.0,0.0,0.0,121.0,161.0,1263,112.55,Light
+55,Strength Training,Strength Training,2016-05-28 20:30:00,0.0,0.0,0.0,112.0,157.0,731,75.2,Very Light
+56,Strength Training,Strength Training,2016-05-27 19:34:00,0.0,0.0,0.0,106.0,184.0,1767,203.57,Very Light
+57,Indoor Cardio,Cardio,2016-05-24 22:21:00,0.0,0.0,0.0,112.0,131.0,193,20.05,Very Light
+58,Strength Training,Strength Training,2016-05-23 20:40:00,0.0,0.0,0.0,116.0,166.0,1315,125.48,Light
+59,Strength Training,Strength Training,2016-05-21 19:49:00,0.0,0.0,0.0,111.0,160.0,1044,109.52,Very Light
+60,Strength Training,Strength Training,2016-05-20 20:09:00,0.0,0.0,0.0,109.0,156.0,754,82.27,Very Light
+61,Indoor Cardio,Cardio,2016-05-20 18:58:00,0.0,0.0,0.0,97.0,148.0,180,25.05,Very Light
+62,Strength Training,Strength Training,2016-05-19 20:10:00,0.0,0.0,0.0,106.0,156.0,548,62.4,Very Light
+63,Strength Training,Strength Training,2016-05-18 20:22:00,0.0,0.0,0.0,109.0,170.0,815,89.09,Very Light
+64,Strength Training,Strength Training,2016-05-17 19:09:00,0.0,0.0,0.0,122.0,147.0,284,25.01,Light
+65,Strength Training,Strength Training,2016-05-16 20:47:00,0.0,0.0,0.0,117.0,182.0,1178,112.45,Light
+66,Strength Training,Strength Training,2016-05-14 18:32:00,0.0,0.0,0.0,114.0,145.0,789,79.03,Light
+67,Strength Training,Strength Training,2016-05-13 20:09:00,0.0,0.0,0.0,117.0,148.0,702,67.16,Light
+68,Indoor Cardio,Cardio,2016-05-13 18:41:00,7.24,0.0,0.0,133.0,171.0,945,72.14,Moderate
+69,Strength Training,Strength Training,2016-05-11 19:50:00,0.0,0.0,0.0,108.0,143.0,892,98.32,Very Light
+70,Strength Training,Strength Training,2016-05-09 20:45:00,0.0,0.0,0.0,119.0,178.0,958,90.06,Light
+71,Running,Running,2016-05-08 19:35:00,13.69,0.0,5.09,153.0,164.0,1136,70.24,Hard
+72,Strength Training,Strength Training,2016-05-07 19:50:00,0.0,0.0,0.0,104.0,160.0,803,95.31,Very Light
+73,Strength Training,Strength Training,2016-05-06 19:52:00,0.0,0.0,0.0,106.0,170.0,1243,145.46,Very Light
+74,Indoor Cardio,Cardio,2016-05-06 19:14:00,0.0,0.0,0.0,126.0,177.0,233,20.02,Light
+75,Running,Running,2016-05-06 18:30:00,6.29,0.0,5.05,148.0,167.0,485,31.59,Moderate
+76,Strength Training,Strength Training,2016-05-05 20:30:00,0.0,0.0,0.0,116.0,160.0,1099,107.38,Light
+77,Strength Training,Strength Training,2016-05-04 20:32:00,0.0,0.0,0.0,115.0,172.0,999,99.25,Light
+78,Indoor Cardio,Cardio,2016-05-03 19:49:00,0.0,0.0,0.0,115.0,129.0,168,17.04,Light
+79,Running,Running,2016-05-03 19:12:00,5.25,0.0,5.07,153.0,167.0,428,26.52,Hard
+80,Strength Training,Strength Training,2016-05-02 20:23:00,0.0,0.0,0.0,117.0,154.0,1222,118.21,Light
+81,Strength Training,Strength Training,2016-04-30 18:54:00,0.0,0.0,0.0,102.0,149.0,685,85.23,Very Light
+82,Strength Training,Strength Training,2016-04-28 20:26:00,0.0,0.0,0.0,115.0,154.0,915,91.1,Light
+83,Strength Training,Strength Training,2016-04-27 20:07:00,0.0,0.0,0.0,111.0,162.0,930,99.2,Very Light
+84,Indoor Cardio,Cardio,2016-04-26 20:28:00,0.0,0.0,0.0,105.0,141.0,379,44.48,Very Light
+85,Running,Running,2016-04-26 19:19:00,5.61,0.0,5.27,152.0,175.0,483,30.35,Hard
+86,Strength Training,Strength Training,2016-04-25 20:50:00,0.0,0.0,0.0,122.0,173.0,1050,94.11,Light
+87,Gondhale Nagar Running,Running,2016-04-24 18:44:00,7.69,32.0,6.05,0.0,0.0,636,46.44,Not Recorded
+88,Strength Training,Strength Training,2016-04-23 20:37:00,0.0,0.0,0.0,110.0,151.0,849,91.42,Very Light
+89,Strength Training,Strength Training,2016-04-23 08:14:00,0.0,0.0,0.0,85.0,119.0,328,62.57,Very Light
+90,Running,Running,2016-04-22 19:18:00,6.45,0.0,6.07,137.0,159.0,532,39.3,Moderate
+91,Indoor Cardio,Cardio,2016-04-20 20:39:00,9.42,0.0,0.0,113.0,176.0,909,94.01,Very Light
+92,Indoor Cardio,Cardio,2016-04-18 21:07:00,0.0,0.0,0.0,100.0,115.0,59,8.01,Very Light
+93,Strength Training,Strength Training,2016-04-18 19:17:00,0.0,0.0,0.0,128.0,177.0,1288,105.52,Light
+94,Strength Training,Strength Training,2016-04-16 20:14:00,0.0,0.0,0.0,112.0,168.0,1107,116.33,Very Light
+95,Strength Training,Strength Training,2016-04-16 08:20:00,0.0,0.0,0.0,100.0,152.0,851,112.03,Very Light
+96,Indoor Cardio,Cardio,2016-04-15 21:07:00,0.0,0.0,0.0,111.0,120.0,138,15.02,Very Light
+97,Running,Running,2016-04-15 20:49:00,2.37,0.0,5.1,149.0,161.0,185,12.15,Moderate
+98,Indoor Cardio,Cardio,2016-04-15 20:32:00,0.0,0.0,0.0,117.0,134.0,153,15.04,Light
+99,Running,Running,2016-04-15 20:18:00,2.33,0.0,5.16,148.0,157.0,183,12.17,Moderate
+100,Indoor Cardio,Cardio,2016-04-13 22:32:00,0.0,0.0,0.0,82.0,90.0,36,8.02,Very Light
+101,Strength Training,Strength Training,2016-04-13 20:37:00,0.0,0.0,0.0,100.0,149.0,856,111.38,Very Light
+102,Strength Training,Strength Training,2016-04-12 20:11:00,0.0,0.0,0.0,105.0,140.0,599,71.38,Very Light
+103,Indoor Cardio,Cardio,2016-04-12 19:32:00,0.0,0.0,0.0,127.0,138.0,237,20.05,Light
+104,Running,Running,2016-04-12 19:12:00,3.61,0.0,5.23,154.0,170.0,314,19.27,Hard
+105,Indoor Cardio,Cardio,2016-04-12 18:46:00,0.0,0.0,0.0,127.0,164.0,237,20.04,Light
+106,Running,Running,2016-04-12 18:29:00,3.0,0.0,5.32,148.0,167.0,248,16.34,Moderate
+107,Indoor Cardio,Cardio,2016-04-11 22:53:00,0.0,0.0,0.0,88.0,109.0,42,7.46,Very Light
+108,Strength Training,Strength Training,2016-04-11 21:11:00,0.0,0.0,0.0,124.0,171.0,1138,98.29,Light
+109,Indoor Cardio,Cardio,2016-04-09 20:06:00,0.81,0.0,0.0,92.0,105.0,49,8.02,Very Light
+110,Strength Training,Strength Training,2016-04-09 18:07:00,0.0,0.0,0.0,118.0,171.0,1213,115.01,Light
+111,Running,Running,2016-04-08 19:38:00,2.31,0.0,6.35,140.0,160.0,209,15.11,Moderate
+112,Indoor Cardio,Cardio,2016-04-08 19:17:00,0.0,0.0,0.0,89.0,130.0,87,15.05,Very Light
+113,Running,Running,2016-04-08 19:04:00,2.32,0.0,5.24,152.0,159.0,195,12.33,Hard
+114,Indoor Cardio,Cardio,2016-04-08 18:47:00,0.0,0.0,0.0,106.0,171.0,125,15.02,Very Light
+115,Running,Running,2016-04-08 18:34:00,2.28,0.0,5.41,151.0,165.0,205,12.57,Moderate
+116,Indoor Cardio,Cardio,2016-04-08 18:17:00,0.0,0.0,0.0,119.0,175.0,157,15.01,Light
+117,Running,Running,2016-04-08 18:02:00,2.47,0.0,5.49,147.0,157.0,215,14.24,Moderate
+118,Indoor Cardio,Cardio,2016-04-08 17:45:00,0.0,0.0,0.0,94.0,151.0,99,15.03,Very Light
+119,Strength Training,Strength Training,2016-04-07 21:12:00,0.0,0.0,0.0,120.0,163.0,1202,109.4,Light
+120,Indoor Cardio,Cardio,2016-04-06 21:34:00,0.0,0.0,0.0,93.0,108.0,51,8.04,Very Light
+121,Strength Training,Strength Training,2016-04-06 19:51:00,0.0,0.0,0.0,93.0,137.0,639,98.3,Very Light
+122,Strength Training,Strength Training,2016-04-05 20:18:00,0.0,0.0,0.0,114.0,145.0,577,58.55,Light
+123,Strength Training,Strength Training,2016-04-05 18:17:00,0.0,0.0,0.0,120.0,159.0,884,80.53,Light
+124,Indoor Cardio,Cardio,2016-04-03 11:46:00,0.0,0.0,0.0,94.0,142.0,98,14.58,Very Light
+125,Strength Training,Strength Training,2016-04-03 09:58:00,0.0,0.0,0.0,83.0,143.0,526,107.24,Very Light
+126,Strength Training,Strength Training,2016-03-31 20:16:00,0.0,0.0,0.0,125.0,173.0,950,81.34,Light
+127,Strength Training,Strength Training,2016-03-30 19:58:00,0.0,0.0,0.0,110.0,171.0,743,80.12,Very Light
+128,Indoor Cardio,Cardio,2016-03-29 19:49:00,0.0,0.0,0.0,79.0,95.0,12,6.39,Very Light
+129,Indoor Cardio,Cardio,2016-03-29 19:29:00,0.0,0.0,0.0,119.0,132.0,159,15.04,Light
+130,Running,Running,2016-03-29 18:55:00,6.16,0.0,5.22,149.0,162.0,513,33.02,Moderate
+131,Strength Training,Strength Training,2016-03-26 16:25:00,0.0,0.0,0.0,120.0,160.0,904,83.4,Light
+132,Strength Training,Strength Training,2016-03-25 20:09:00,0.0,0.0,0.0,100.0,151.0,514,67.53,Very Light
+133,Running,Running,2016-03-25 19:23:00,6.23,0.0,5.31,139.0,158.0,474,34.22,Moderate
+134,Indoor Cardio,Cardio,2016-03-25 18:48:00,0.0,0.0,0.0,109.0,140.0,275,30.3,Very Light
+135,Strength Training,Strength Training,2016-03-24 21:02:00,0.0,0.0,0.0,110.0,159.0,774,83.22,Very Light
+136,Strength Training,Strength Training,2016-03-23 20:00:00,0.0,0.0,0.0,110.0,148.0,857,92.12,Very Light
+137,Strength Training,Strength Training,2016-03-22 20:06:00,0.0,0.0,0.0,103.0,143.0,490,60.09,Very Light
+138,Indoor Cardio,Cardio,2016-03-22 19:46:00,0.0,0.0,0.0,77.0,81.0,12,7.34,Very Light
+139,Running,Running,2016-03-22 19:33:00,2.0,0.0,5.4,141.0,160.0,158,11.19,Moderate
+140,Indoor Cardio,Cardio,2016-03-22 19:02:00,0.0,0.0,0.0,101.0,148.0,224,28.13,Very Light
+141,Strength Training,Strength Training,2016-03-21 20:04:00,0.0,0.0,0.0,100.0,165.0,837,109.23,Very Light
+142,Indoor Cardio,Cardio,2016-03-21 10:41:00,1.01,0.0,0.0,127.0,143.0,236,20.04,Light
+143,Running,Running,2016-03-21 10:30:00,1.88,0.0,5.46,132.0,157.0,138,10.52,Light
+144,Hadapsar Running,Running,2016-03-20 18:00:00,5.88,11.0,5.38,159.0,180.0,481,33.04,Hard
+145,Strength Training,Strength Training,2016-03-19 20:48:00,0.0,0.0,0.0,115.0,157.0,1079,106.49,Light
+146,Running,Running,2016-03-19 18:13:00,2.26,0.0,5.12,138.0,152.0,156,11.45,Moderate
+147,Indoor Cardio,Cardio,2016-03-19 17:45:00,0.0,0.0,0.0,125.0,143.0,233,20.08,Light
+148,Running,Running,2016-03-19 17:33:00,1.97,0.0,5.1,140.0,155.0,137,10.08,Moderate
+149,Indoor Cardio,Cardio,2016-03-19 17:19:00,0.0,0.0,0.0,125.0,136.0,116,10.05,Light
+150,Indoor Cardio,Cardio,2016-03-19 17:07:00,0.0,0.0,0.0,115.0,126.0,98,10.01,Light
+151,Running,Running,2016-03-19 16:58:00,1.45,0.0,5.15,141.0,158.0,104,7.38,Moderate
+152,Indoor Cardio,Cardio,2016-03-19 16:43:00,0.0,0.0,0.0,120.0,131.0,106,10.04,Light
+153,Indoor Cardio,Cardio,2016-03-19 16:31:00,0.0,0.0,0.0,100.0,146.0,73,10.01,Very Light
+154,Running,Running,2016-03-11 19:06:00,8.56,0.0,10.2,0.0,0.0,713,88.2,Not Recorded
+155,Strength Training,Strength Training,2016-03-09 18:17:00,0.0,0.0,0.0,0.0,0.0,207,90.04,Not Recorded
+156,Strength Training,Strength Training,2016-03-08 19:34:00,0.0,0.0,0.0,0.0,0.0,11,7.45,Not Recorded
+157,Strength Training,Strength Training,2016-03-08 19:06:00,0.0,0.0,0.0,0.0,0.0,39,25.06,Not Recorded
+158,Strength Training,Strength Training,2016-03-07 18:10:00,0.0,0.0,0.0,0.0,0.0,183,95.0,Not Recorded
+159,Gondhale Nagar Running,Running,2016-03-05 06:32:00,10.01,24.0,6.25,0.0,0.0,858,64.17,Not Recorded
+160,Strength Training,Strength Training,2016-03-03 19:34:00,0.0,0.0,0.0,0.0,0.0,162,90.04,Not Recorded
+161,Strength Training,Strength Training,2016-03-02 20:23:00,0.0,0.0,0.0,0.0,0.0,223,111.57,Not Recorded
+162,Strength Training,Strength Training,2016-03-01 19:18:00,0.0,0.0,0.0,0.0,0.0,39,25.02,Not Recorded
+163,Strength Training,Strength Training,2016-02-29 20:38:00,0.0,0.0,0.0,0.0,0.0,201,108.08,Not Recorded
+164,Hadapsar Running,Running,2016-02-28 07:01:00,10.02,16.0,5.58,0.0,0.0,827,59.47,Not Recorded
+165,Strength Training,Strength Training,2016-02-27 12:52:00,0.0,0.0,0.0,0.0,0.0,268,117.43,Not Recorded
+166,Indoor Cardio,Cardio,2016-02-26 19:54:00,0.0,0.0,0.0,0.0,0.0,9,6.12,Not Recorded
+167,Indoor Cardio,Cardio,2016-02-26 19:23:00,0.02,0.0,0.0,0.0,0.0,38,25.05,Not Recorded
+168,Strength Training,Strength Training,2016-02-25 20:50:00,0.0,0.0,0.0,0.0,0.0,438,240.07,Not Recorded
+169,Strength Training,Strength Training,2016-02-24 19:52:00,0.0,0.0,0.0,0.0,0.0,201,106.42,Not Recorded
+170,Indoor Cardio,Cardio,2016-02-23 19:34:00,0.43,0.0,0.0,0.0,0.0,107,60.06,Not Recorded
+171,Strength Training,Strength Training,2016-02-22 20:34:00,0.0,0.0,0.0,0.0,0.0,169,90.57,Not Recorded
+172,Strength Training,Strength Training,2016-02-20 18:59:00,0.0,0.0,0.0,0.0,0.0,234,106.31,Not Recorded
+173,Indoor Cardio,Cardio,2016-02-19 19:06:00,0.97,0.0,0.0,0.0,0.0,119,60.06,Not Recorded
+174,Strength Training,Strength Training,2016-02-18 19:23:00,0.0,0.0,0.0,0.0,0.0,182,100.34,Not Recorded
+175,Strength Training,Strength Training,2016-02-17 19:43:00,0.0,0.0,0.0,0.0,0.0,230,108.4,Not Recorded
+176,Indoor Cardio,Cardio,2016-02-16 19:02:00,1.37,0.0,0.0,0.0,0.0,132,60.05,Not Recorded
+177,Strength Training,Strength Training,2016-02-15 20:10:00,0.0,0.0,0.0,0.0,0.0,181,97.03,Not Recorded
+178,Hadapsar Running,Running,2016-02-14 18:49:00,4.0,6.0,6.49,0.0,0.0,330,27.17,Not Recorded
+179,Strength Training,Strength Training,2016-02-13 17:03:00,0.0,0.0,0.0,0.0,0.0,223,104.23,Not Recorded
+180,Indoor Cardio,Cardio,2016-02-12 09:07:00,0.0,0.0,0.0,0.0,0.0,15,10.29,Not Recorded
+181,Indoor Cardio,Cardio,2016-02-12 08:54:00,0.01,0.0,0.0,0.0,0.0,16,11.2,Not Recorded
+182,Indoor Cardio,Cardio,2016-02-12 07:58:00,1.47,0.0,0.0,0.0,0.0,128,55.18,Not Recorded
+183,Strength Training,Strength Training,2016-02-11 19:43:00,0.0,0.0,0.0,0.0,0.0,160,82.58,Not Recorded
+184,Strength Training,Strength Training,2016-02-10 20:15:00,0.0,0.0,0.0,0.0,0.0,159,79.03,Not Recorded
+185,Indoor Cardio,Cardio,2016-02-08 20:29:00,0.0,0.0,0.0,0.0,0.0,29,20.05,Not Recorded
+186,Lokadkot Running,Running,2016-02-07 06:00:00,21.02,27.0,5.22,0.0,0.0,1713,112.53,Not Recorded
+187,Strength Training,Strength Training,2016-02-05 17:46:00,0.0,0.0,0.0,0.0,0.0,148,77.57,Not Recorded
+188,Indoor Cardio,Cardio,2016-02-04 19:44:00,0.0,0.0,0.0,0.0,0.0,13,9.2,Not Recorded
+189,Strength Training,Strength Training,2016-02-02 08:15:00,0.0,0.0,0.0,0.0,0.0,182,88.0,Not Recorded
+190,Strength Training,Strength Training,2016-02-01 19:53:00,0.0,0.0,0.0,0.0,0.0,327,174.13,Not Recorded
+191,Strength Training,Strength Training,2016-02-01 09:09:00,0.0,0.0,0.0,0.0,0.0,91,34.25,Not Recorded
+192,Indoor Cardio,Cardio,2016-02-01 08:47:00,0.01,0.0,0.0,0.0,0.0,29,20.02,Not Recorded
+193,Film Institute Running,Running,2016-01-31 07:00:00,10.01,106.0,5.53,0.0,0.0,817,58.51,Not Recorded
+194,Indoor Cardio,Cardio,2016-01-30 19:28:00,0.56,0.0,0.0,0.0,0.0,100,55.13,Not Recorded
+195,Strength Training,Strength Training,2016-01-28 19:46:00,0.0,0.0,0.0,127.0,167.0,941,90.08,Light
+196,Strength Training,Strength Training,2016-01-27 19:33:00,0.0,0.0,0.0,0.0,0.0,139,68.5,Not Recorded
+197,Strength Training,Strength Training,2016-01-23 18:32:00,0.0,0.0,0.0,0.0,0.0,137,73.45,Not Recorded
+198,Mandvi (Mumbai) Running,Running,2016-01-17 05:44:00,42.39,78.0,6.38,0.0,0.0,3362,280.59,Not Recorded
+199,New Yogakshema Running,Running,2016-01-16 06:55:00,1.5,1.0,6.41,0.0,0.0,124,10.03,Not Recorded
+200,Hadapsar Running,Running,2016-01-13 08:30:00,5.01,12.0,5.57,0.0,0.0,413,29.53,Not Recorded
+201,Hadapsar Running,Running,2016-01-10 07:16:00,13.14,26.0,5.54,0.0,0.0,1078,77.37,Not Recorded
+202,Strength Training,Strength Training,2016-01-09 18:05:00,0.0,0.0,0.0,0.0,0.0,170,90.06,Not Recorded
+203,Gondhale Nagar Running,Running,2016-01-07 19:49:00,5.12,10.0,5.52,0.0,0.0,428,30.0,Not Recorded
+204,Strength Training,Strength Training,2016-01-06 20:26:00,0.0,0.0,0.0,0.0,0.0,394,100.12,Not Recorded
+205,Strength Training,Strength Training,2016-01-04 19:10:00,0.0,0.0,0.0,0.0,0.0,60,40.06,Not Recorded
+206,Gondhale Nagar Running,Running,2016-01-04 06:40:00,24.01,42.0,6.06,0.0,0.0,1984,146.23,Not Recorded
+207,Hadapsar Running,Running,2016-01-03 06:57:00,11.41,25.0,5.47,0.0,0.0,935,66.02,Not Recorded
+208,Indoor Cardio,Cardio,2016-01-01 21:07:00,0.0,0.0,0.0,0.0,0.0,2,1.27,Not Recorded
+209,Indoor Cardio,Cardio,2015-12-31 18:17:00,0.86,0.0,0.0,0.0,0.0,77,33.36,Not Recorded
+210,Strength Training,Strength Training,2015-12-28 20:12:00,0.0,0.0,0.0,0.0,0.0,239,133.36,Not Recorded
+211,Strength Training,Strength Training,2015-12-28 18:50:00,0.0,0.0,0.0,0.0,0.0,59,40.02,Not Recorded
+212,A.R. Shala Running,Running,2015-12-27 06:06:00,32.08,210.0,6.28,0.0,0.0,2597,207.25,Not Recorded
+213,Hadapsar Running,Running,2015-12-26 07:06:00,10.02,20.0,5.36,0.0,0.0,813,56.06,Not Recorded
+214,Strength Training,Strength Training,2015-12-24 20:21:00,0.0,0.0,0.0,0.0,0.0,200,107.25,Not Recorded
+215,Strength Training,Strength Training,2015-12-21 19:47:00,0.0,0.0,0.0,108.0,158.0,1100,141.4,Very Light
+216,Gondhale Nagar Running,Running,2015-12-20 08:56:00,6.0,10.0,6.3,0.0,0.0,498,39.03,Not Recorded
+217,Gondhale Nagar Running,Running,2015-12-20 06:21:00,24.01,40.0,5.59,0.0,0.0,1972,143.39,Not Recorded
+218,Strength Training,Strength Training,2015-12-18 18:05:00,0.0,0.0,0.0,117.0,154.0,965,106.17,Light
+219,Running,Running,2015-12-17 20:23:00,1.4,0.0,6.45,145.0,153.0,105,9.26,Moderate
+220,Hadapsar Running,Running,2015-12-17 19:49:00,6.02,4.0,5.12,150.0,162.0,402,31.2,Moderate
+221,Gondhale Nagar Running,Running,2015-12-17 19:34:00,1.52,3.0,6.02,134.0,148.0,100,9.1,Moderate
+222,Strength Training,Strength Training,2015-12-16 20:49:00,0.0,0.0,0.0,0.0,0.0,162,93.25,Not Recorded
+223,Strength Training,Strength Training,2015-12-14 19:35:00,0.0,0.0,0.0,0.0,0.0,155,81.11,Not Recorded
+224,Hadapsar Running,Running,2015-12-12 06:30:00,10.2,28.0,5.12,0.0,0.0,848,53.03,Not Recorded
+225,Running,Running,2015-12-10 20:27:00,1.51,0.0,6.47,137.0,146.0,108,10.14,Moderate
+226,Hadapsar Running,Running,2015-12-10 19:30:00,9.02,9.0,5.33,153.0,166.0,650,50.03,Hard
+227,Strength Training,Strength Training,2015-12-09 20:13:00,0.0,0.0,0.0,120.0,160.0,1053,111.11,Light
+228,Strength Training,Strength Training,2015-12-07 19:57:00,0.0,0.0,0.0,112.0,149.0,999,118.04,Very Light
+229,Hadapsar Running,Running,2015-12-06 05:39:00,22.51,46.0,6.25,0.0,0.0,1866,144.21,Not Recorded
+230,Gondhale Nagar Running,Running,2015-12-05 06:44:00,5.01,11.0,5.26,0.0,0.0,408,27.12,Not Recorded
+231,Jangpura Running,Running,2015-11-29 07:11:00,21.11,5.0,5.28,0.0,0.0,1771,115.23,Not Recorded
+232,Running,Running,2015-11-26 20:53:00,3.8,0.0,6.28,0.0,0.0,312,24.35,Not Recorded
+233,Cardio,Cardio,2015-11-25 21:18:00,0.0,0.0,0.0,0.0,0.0,3,2.37,Not Recorded
+234,Cardio,Cardio,2015-11-25 21:11:00,0.0,0.0,0.0,0.0,0.0,3,2.07,Not Recorded
+235,Cardio,Cardio,2015-11-25 20:55:00,0.0,0.0,0.0,0.0,0.0,3,2.07,Not Recorded
+236,Treadmill Running,Treadmill Running,2015-11-24 19:29:00,2.94,0.0,6.18,0.0,0.0,246,18.32,Not Recorded
+237,Strength Training,Strength Training,2015-11-23 20:53:00,0.0,0.0,0.0,0.0,0.0,138,71.53,Not Recorded
+238,Hadapsar Running,Running,2015-11-22 07:12:00,17.01,30.0,6.27,0.0,0.0,1419,109.38,Not Recorded
+239,Strength Training,Strength Training,2015-11-21 19:11:00,0.0,0.0,0.0,117.0,152.0,790,95.33,Light
+240,Strength Training,Strength Training,2015-11-19 20:01:00,0.0,0.0,0.0,115.0,145.0,754,84.29,Light
+241,Treadmill Running,Treadmill Running,2015-11-19 18:50:00,5.47,0.0,6.21,156.0,162.0,436,34.44,Hard
+242,Running,Running,2015-11-18 21:16:00,4.24,0.0,6.4,133.0,147.0,328,28.12,Moderate
+243,Treadmill Running,Treadmill Running,2015-11-17 19:37:00,4.22,0.0,7.42,153.0,174.0,434,32.27,Hard
+244,Treadmill Running,Treadmill Running,2015-11-16 21:22:00,1.52,0.0,27.06,106.0,124.0,317,41.03,Very Light
+245,Strength Training,Strength Training,2015-11-16 19:17:00,0.0,0.0,0.0,116.0,154.0,1043,115.52,Light
+246,Hadapsar Running,Running,2015-11-15 05:34:00,32.08,37.0,6.31,0.0,0.0,2670,209.11,Not Recorded
+247,Running,Running,2015-11-13 20:42:00,0.38,0.0,10.35,143.0,157.0,41,4.02,Moderate
+248,Strength Training,Strength Training,2015-11-13 18:23:00,0.0,0.0,0.0,127.0,160.0,1222,119.37,Light
+249,Strength Training,Strength Training,2015-11-09 20:06:00,0.0,0.0,0.0,113.0,150.0,975,112.24,Very Light
+250,Kothaguda Running,Running,2015-11-08 05:51:00,30.01,154.0,6.4,0.0,0.0,2427,199.47,Not Recorded
+251,Strength Training,Strength Training,2015-11-04 20:06:00,0.0,0.0,0.0,121.0,157.0,718,74.06,Light
+252,Running,Running,2015-11-04 19:23:00,3.73,0.0,6.35,149.0,160.0,317,24.34,Moderate
+253,Running,Running,2015-11-03 19:35:00,4.26,0.0,7.12,154.0,173.0,354,30.4,Hard
+254,Strength Training,Strength Training,2015-11-02 20:07:00,0.0,0.0,0.0,116.0,155.0,965,107.12,Light
+255,Sasanenagar Running,Running,2015-11-01 06:33:00,19.01,38.0,6.1,150.0,162.0,1430,117.13,Moderate
+256,Treadmill Running,Treadmill Running,2015-10-31 16:30:00,5.37,0.0,6.14,162.0,169.0,449,33.3,Hard
+257,Strength Training,Strength Training,2015-10-31 13:57:00,0.0,0.0,0.0,119.0,157.0,735,136.1,Light
+258,Gondhale Nagar Strength Training,Strength Training,2015-10-29 20:01:00,0.0,0.0,0.0,99.0,146.0,389,99.52,Very Light
+259,Treadmill Running,Treadmill Running,2015-10-28 21:51:00,4.01,0.0,6.52,152.0,158.0,339,27.28,Hard
+260,Gondhale Nagar Running,Running,2015-10-25 06:30:00,26.0,44.0,6.51,149.0,164.0,1772,178.03,Moderate
+261,Treadmill Running,Treadmill Running,2015-10-20 19:26:00,4.24,0.0,8.17,134.0,159.0,386,35.09,Moderate
+262,Running,Running,2015-10-19 19:28:00,21.66,0.0,5.3,114.0,157.0,998,115.19,Light
+263,Sasanenagar Running,Running,2015-10-18 18:41:00,23.01,15.0,7.12,142.0,160.0,1409,165.39,Moderate
+264,Running,Running,2015-10-17 12:00:00,21.68,0.0,6.22,114.0,148.0,1166,135.04,Light
+265,Strength Training,Strength Training,2015-10-14 20:01:00,0.0,0.0,0.0,111.0,153.0,1031,145.46,Very Light
+266,Strength Training,Strength Training,2015-10-12 19:55:00,0.0,0.0,0.0,127.0,166.0,1004,99.26,Light
+267,Gondhale Nagar Running,Running,2015-10-11 18:48:00,1.36,3.0,7.06,124.0,142.0,80,9.42,Light
+268,Running,Running,2015-10-10 12:49:00,17.19,0.0,6.22,114.0,148.0,923,107.42,Light
+269,Running,Running,2015-10-09 17:38:00,5.71,0.0,7.12,149.0,172.0,524,41.05,Moderate
+270,Strength Training,Strength Training,2015-10-07 20:33:00,0.0,0.0,0.0,116.0,150.0,890,100.11,Light
+271,Treadmill Running,Treadmill Running,2015-10-06 19:35:00,4.41,0.0,6.57,160.0,174.0,385,30.38,Hard
+272,Strength Training,Strength Training,2015-10-05 19:24:00,0.0,0.0,0.0,120.0,156.0,854,91.21,Light
+273,Gondhale Nagar Running,Running,2015-10-04 19:27:00,14.01,23.0,5.46,0.0,0.0,1107,80.49,Not Recorded
+274,Sasanenagar Running,Running,2015-10-04 09:27:00,7.01,12.0,6.12,0.0,0.0,579,43.29,Not Recorded
+275,Strength Training,Strength Training,2015-10-03 14:19:00,0.0,0.0,0.0,111.0,154.0,1252,172.35,Very Light
+276,Treadmill Running,Treadmill Running,2015-10-01 20:59:00,4.29,0.0,7.34,135.0,162.0,360,32.24,Moderate
+277,Treadmill Running,Treadmill Running,2015-09-29 19:33:00,3.77,0.0,9.36,147.0,177.0,426,36.09,Moderate
+278,Strength Training,Strength Training,2015-09-28 20:24:00,0.0,0.0,0.0,122.0,159.0,1053,112.12,Light
+279,Gondhale Nagar Running,Running,2015-09-27 19:11:00,12.01,11.0,7.21,135.0,154.0,765,88.19,Moderate
+280,Treadmill Running,Treadmill Running,2015-09-26 13:47:00,3.76,0.0,7.43,138.0,163.0,331,28.58,Moderate
+281,Treadmill Running,Treadmill Running,2015-09-24 19:48:00,5.51,0.0,8.13,127.0,165.0,466,45.18,Light
+282,Treadmill Running,Treadmill Running,2015-09-23 21:31:00,3.06,0.0,8.06,136.0,155.0,263,24.48,Moderate
+283,Strength Training,Strength Training,2015-09-23 19:31:00,0.0,0.0,0.0,125.0,160.0,1108,111.51,Light
+284,Treadmill Running,Treadmill Running,2015-09-22 19:25:00,3.88,0.0,7.38,140.0,170.0,347,29.36,Moderate
+285,Strength Training,Strength Training,2015-09-12 16:58:00,0.0,0.0,0.0,0.0,0.0,223,112.0,Not Recorded
+286,Strength Training,Strength Training,2015-09-07 19:52:00,0.0,0.0,0.0,125.0,158.0,665,95.34,Light
+287,Strength Training,Strength Training,2015-09-04 21:04:00,0.0,0.0,0.0,124.0,154.0,354,48.37,Light
+288,Strength Training,Strength Training,2015-09-02 19:32:00,0.0,0.0,0.0,122.0,156.0,694,111.05,Light
+289,Strength Training,Strength Training,2015-08-31 19:21:00,0.0,0.0,0.0,128.0,163.0,826,121.05,Light
+290,Strength Training,Strength Training,2015-08-29 19:00:00,0.0,0.0,0.0,110.0,154.0,450,90.34,Very Light
+291,Strength Training,Strength Training,2015-08-27 18:55:00,0.0,0.0,0.0,124.0,163.0,730,115.36,Light
+292,Strength Training,Strength Training,2015-08-24 19:22:00,0.0,0.0,0.0,127.0,163.0,870,132.22,Light
+293,Strength Training,Strength Training,2015-08-21 19:50:00,0.0,0.0,0.0,123.0,164.0,740,120.27,Light
+294,Strength Training,Strength Training,2015-08-17 20:06:00,0.0,0.0,0.0,133.0,166.0,958,128.19,Moderate
+295,Strength Training,Strength Training,2015-08-14 20:04:00,0.0,0.0,0.0,125.0,158.0,548,76.59,Light
+296,Strength Training,Strength Training,2015-08-12 19:47:00,0.0,0.0,0.0,130.0,167.0,792,111.56,Light
+297,Strength Training,Strength Training,2015-08-10 19:48:00,0.0,0.0,0.0,130.0,159.0,787,108.54,Light
+298,Strength Training,Strength Training,2015-08-05 19:55:00,0.0,0.0,0.0,125.0,166.0,756,120.21,Light
+299,Strength Training,Strength Training,2015-08-03 19:58:00,0.0,0.0,0.0,126.0,162.0,711,107.39,Light
+300,Strength Training,Strength Training,2015-07-31 20:25:00,0.0,0.0,0.0,122.0,159.0,668,107.59,Light
+301,Strength Training,Strength Training,2015-07-29 20:31:00,0.0,0.0,0.0,112.0,154.0,396,73.4,Very Light
+302,Strength Training,Strength Training,2015-07-28 21:58:00,0.0,0.0,0.0,110.0,141.0,328,61.54,Very Light
+303,Gondhale Nagar Running,Running,2015-07-26 19:07:00,10.04,17.0,5.52,156.0,169.0,722,58.57,Hard
+304,Strength Training,Strength Training,2015-07-25 20:28:00,0.0,0.0,0.0,123.0,156.0,604,94.14,Light
+305,Strength Training,Strength Training,2015-07-23 19:25:00,0.0,0.0,0.0,117.0,154.0,641,114.08,Light
+306,Gondhale Nagar Running,Running,2015-07-22 20:58:00,5.03,9.0,5.24,162.0,179.0,358,27.08,Hard
+307,Strength Training,Strength Training,2015-07-20 19:38:00,0.0,0.0,0.0,121.0,168.0,660,108.44,Light
+308,Gondhale Nagar Running,Running,2015-07-19 10:41:00,10.01,28.0,5.54,168.0,177.0,846,59.03,Hard
+309,Gondhale Nagar Running,Running,2015-07-15 20:23:00,5.02,11.0,5.0,166.0,183.0,356,25.06,Hard
+310,Gondhale Nagar Strength Training,Strength Training,2015-07-13 19:58:00,0.0,0.0,0.0,131.0,172.0,699,90.29,Light
+311,Gondhale Nagar Running,Running,2015-07-12 18:38:00,10.01,19.0,5.4,134.0,175.0,727,56.49,Moderate
+312,Running,Running,2015-06-11 20:32:00,4.16,22.0,4.53,0.0,0.0,300,20.17,Not Recorded
+313,Running,Running,2015-06-07 18:57:00,10.05,54.0,5.42,0.0,0.0,769,57.14,Not Recorded
+314,Running,Running,2015-06-04 19:34:00,6.62,33.0,4.59,0.0,0.0,483,32.58,Not Recorded
+315,Running,Running,2015-04-26 18:54:00,5.04,29.0,6.02,0.0,0.0,392,30.24,Not Recorded
+316,Running,Running,2015-04-05 18:57:00,6.39,36.0,6.39,0.0,0.0,532,42.29,Not Recorded
+317,Running,Running,2015-03-29 18:10:00,1.57,15.0,6.29,0.0,0.0,131,10.12,Not Recorded
+318,Running,Running,2015-03-22 06:37:00,5.0,57.0,6.42,0.0,0.0,417,33.29,Not Recorded
+319,Running,Running,2015-02-15 07:00:00,5.04,30.0,7.26,0.0,0.0,424,37.29,Not Recorded
+320,Running,Running,2015-02-08 06:25:00,12.95,592.0,6.46,0.0,0.0,1080,87.39,Not Recorded
+321,Running,Running,2015-02-07 07:16:00,5.04,27.0,5.36,0.0,0.0,406,28.13,Not Recorded
+322,Running,Running,2015-02-01 18:02:00,5.33,33.0,6.05,0.0,0.0,439,32.27,Not Recorded
+323,Running,Running,2015-01-26 06:51:00,2.3,56.0,6.37,0.0,0.0,191,15.11,Not Recorded
+324,Running,Running,2015-01-18 06:07:00,21.59,100.0,4.59,0.0,0.0,1661,107.46,Not Recorded
+325,Running,Running,2015-01-11 07:02:00,18.11,101.0,6.09,0.0,0.0,1478,111.21,Not Recorded
+326,Running,Running,2014-12-30 12:11:00,5.03,44.0,5.32,0.0,0.0,400,27.52,Not Recorded
+327,Running,Running,2014-12-28 12:06:00,8.4,65.0,5.5,0.0,0.0,676,48.58,Not Recorded
+328,Running,Running,2014-12-21 10:47:00,15.02,100.0,6.14,0.0,0.0,1230,93.44,Not Recorded
+329,Running,Running,2014-12-14 18:06:00,13.28,72.0,5.16,0.0,0.0,1040,69.59,Not Recorded
+330,Running,Running,2014-12-14 06:56:00,4.64,32.0,5.34,0.0,0.0,369,25.5,Not Recorded
+331,Running,Running,2014-12-07 06:14:00,21.22,165.0,6.2,0.0,0.0,1740,134.27,Not Recorded
+332,Running,Running,2014-11-29 18:30:00,5.89,35.0,7.48,0.0,0.0,482,46.0,Not Recorded
+333,Running,Running,2014-11-23 07:11:00,21.41,229.0,5.04,0.0,0.0,1646,108.3,Not Recorded
+334,Running,Running,2014-11-18 19:00:00,3.08,25.0,5.03,0.0,0.0,236,15.32,Not Recorded
+335,Running,Running,2014-11-16 11:03:00,14.02,96.0,6.15,0.0,0.0,1148,87.31,Not Recorded
+336,Running,Running,2014-11-15 11:54:00,5.04,34.0,5.1,0.0,0.0,391,26.01,Not Recorded
+337,Running,Running,2014-11-09 17:34:00,14.04,63.0,5.57,0.0,0.0,1137,83.35,Not Recorded
+338,Running,Running,2014-11-09 06:36:00,6.53,29.0,6.12,0.0,0.0,534,40.28,Not Recorded
+339,Running,Running,2014-11-08 07:34:00,8.03,80.0,5.51,0.0,0.0,647,46.59,Not Recorded
+340,Running,Running,2014-10-19 06:04:00,18.52,139.0,5.49,0.0,0.0,1546,107.52,Not Recorded
+341,Running,Running,2014-10-18 07:40:00,7.66,78.0,5.52,0.0,0.0,640,44.57,Not Recorded
+342,Running,Running,2014-10-15 18:13:00,4.41,59.0,6.22,0.0,0.0,375,28.04,Not Recorded
+343,Running,Running,2014-10-12 20:05:00,3.62,31.0,9.05,0.0,0.0,286,32.51,Not Recorded
+344,Running,Running,2014-10-12 17:53:00,6.0,82.0,6.08,0.0,0.0,508,36.47,Not Recorded
+345,Running,Running,2014-10-12 05:52:00,3.5,40.0,5.56,0.0,0.0,294,20.46,Not Recorded
+346,Running,Running,2014-10-05 06:02:00,15.54,109.0,5.56,0.0,0.0,1303,92.1,Not Recorded
+347,Running,Running,2014-10-01 18:40:00,4.17,36.0,7.47,0.0,0.0,354,32.3,Not Recorded
+348,Running,Running,2014-10-01 18:21:00,0.92,6.0,7.38,0.0,0.0,75,6.59,Not Recorded
+349,Running,Running,2014-09-28 17:36:00,15.03,152.0,7.31,0.0,0.0,1293,113.0,Not Recorded
+350,Running,Running,2014-09-07 18:17:00,8.69,96.0,7.41,0.0,0.0,740,66.47,Not Recorded
+351,Running,Running,2014-08-02 04:34:00,15.0,193.0,7.32,0.0,0.0,1290,112.54,Not Recorded
+352,Running,Running,2014-05-11 05:38:00,20.91,275.0,6.39,0.0,0.0,1785,139.09,Not Recorded
+353,Running,Running,2014-04-22 11:00:00,10.7,146.0,7.17,0.0,0.0,921,77.59,Not Recorded
+354,Running,Running,2014-04-13 06:32:00,9.68,84.0,5.5,0.0,0.0,809,56.34,Not Recorded
+355,Running,Running,2014-04-12 06:31:00,14.48,132.0,7.48,0.0,0.0,1227,112.55,Not Recorded
+356,Running,Running,2014-04-05 06:28:00,21.11,308.0,8.04,0.0,0.0,1763,170.24,Not Recorded
+357,Running,Running,2014-03-29 07:19:00,10.54,108.0,8.5,0.0,0.0,844,93.05,Not Recorded
+358,Running,Running,2014-03-29 06:45:00,0.6,6.0,10.47,0.0,0.0,42,6.29,Not Recorded
+359,Running,Running,2014-03-16 06:42:00,20.46,122.0,5.39,0.0,0.0,1695,115.31,Not Recorded
+360,Running,Running,2014-03-02 07:31:00,14.16,130.0,5.35,0.0,0.0,1169,78.59,Not Recorded
+361,Running,Running,2014-01-19 06:18:00,21.6,100.0,6.05,0.0,0.0,1817,131.23,Not Recorded
+362,Running,Running,2013-12-15 07:51:00,21.55,230.0,6.17,0.0,0.0,1824,135.26,Not Recorded
+363,Running,Running,2013-05-22 18:53:00,5.24,48.0,7.11,0.0,0.0,449,37.38,Not Recorded
+364,Running,Running,2013-05-21 18:38:00,5.29,47.0,7.25,0.0,0.0,455,39.13,Not Recorded
+365,Running,Running,2013-05-14 18:25:00,5.14,40.0,7.11,0.0,0.0,440,36.56,Not Recorded
+366,Running,Running,2013-03-23 17:52:00,10.0,82.0,7.01,0.0,0.0,855,70.08,Not Recorded
+367,Running,Running,2013-03-16 19:08:00,1.01,7.0,7.01,0.0,0.0,87,7.07,Not Recorded
+368,Running,Running,2013-03-15 18:53:00,5.05,34.0,7.17,0.0,0.0,433,36.46,Not Recorded
+369,Running,Running,2013-03-13 18:52:00,4.16,25.0,7.16,0.0,0.0,356,30.11,Not Recorded
+370,Running,Running,2013-03-10 17:51:00,10.4,85.0,7.4,0.0,0.0,884,79.47,Not Recorded
+371,Running,Running,2013-02-17 07:05:00,9.86,81.0,5.46,0.0,0.0,818,56.55,Not Recorded
+372,Running,Running,2012-10-31 07:12:00,5.17,33.0,7.24,0.0,0.0,419,38.18,Not Recorded
+373,Running,Running,2012-10-15 18:10:00,4.05,29.0,8.08,0.0,0.0,317,32.53,Not Recorded
+374,Running,Running,2012-10-13 17:38:00,5.11,35.0,8.29,0.0,0.0,392,43.21,Not Recorded

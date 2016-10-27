@@ -92,7 +92,7 @@
 			})
 			.entries(datapoints);// and here is our data
 
-		console.log(nested);
+		// console.log(nested);
 
 		var schemes = ['SchemeCategory10', 'SchemeCategory20', 'SchemeCategory20b', 'SchemeCategory20c'];
 

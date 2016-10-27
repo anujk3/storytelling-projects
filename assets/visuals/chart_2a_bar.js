@@ -28,6 +28,8 @@
 
 	svg.call(tip);
 
+
+
 	// Create a time parser
 	var parse = d3.timeParse("%a, %d %b %Y %I:%M %p");
 	function timeparse(curr_str){
@@ -77,11 +79,11 @@
 		// Get the max and min of datetime and Close,
 		// then use that to set the domain of your scale
 
-		// console.log(datapoints);
-
 		// NOTE:I've done it for the datetime, you do it for the close price
 		var timeCalories = datapoints.map(function(d) { return d.activityStartTime; });
 		// console.log(activities);
+
+
 		xPositionScale.domain(timeCalories);
 
 		var maxCalories = d3.max(datapoints, function(d) { return d.calories; });
@@ -129,6 +131,10 @@
 			.attr("dy", ".71em")
 			.style("text-anchor", "end")
 			.text("Calories Burnt");
+
+
+	// <input type="text" id="range" value="" name="range" />
+
 
 	}
 })();

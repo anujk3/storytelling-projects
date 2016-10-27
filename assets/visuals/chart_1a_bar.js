@@ -55,12 +55,12 @@
 	}
 
 	function create_new_datapoints(nested){
-		console.log(nested);
+		// console.log(nested);
 
 		var aggregates = [];
 
 		for (i in nested){
-			console.log(i);
+			// console.log(i);
 			var element = {};
 			var totalmins = 0;
 			// console.log(nested[i].key);
@@ -133,7 +133,7 @@
 			.append("rect")
 			.attr("class", "bar")
 			.attr("x", function(d) {
-				console.log(d);
+				// console.log(d);
 				return xPositionScale(d.activity);
 			})
 			.attr("y", function(d) {

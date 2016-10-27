@@ -149,7 +149,7 @@
 
 		var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-		console.log(nested);
+		// console.log(nested);
 
 		// Draw your lines
 		// When coloring them, an if statement might come in handy!

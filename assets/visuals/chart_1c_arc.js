@@ -1,7 +1,7 @@
 (function() {
     var margin = { top: 30, left: 30, right: 30, bottom: 30},
         height = 400 - margin.top - margin.bottom,
-        width = 585 - margin.left - margin.right;
+        width = 540 - margin.left - margin.right;
 
     console.log("Building chart 1c_arc");
 
@@ -45,12 +45,12 @@
     }
 
     function create_new_datapoints(nested){
-		console.log(nested);
+		// console.log(nested);
 
 		var aggregates = [];
 
 		for (i in nested){
-			console.log(i);
+			// console.log(i);
 			var element = {};
 			var totalmins = 0;
 			// console.log(nested[i].key);
@@ -131,8 +131,8 @@
 		// The pie generator is going to convert
 		// our datapoints into a series of
 		// start and end angles
-		console.log("Using our pie generator");
-		console.log(pie(aggregates));
+		// console.log("Using our pie generator");
+		// console.log(pie(aggregates));
 
 		// When using the pie generator
 		// bind your pie(datapoints), not
