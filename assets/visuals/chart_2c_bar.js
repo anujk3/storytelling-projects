@@ -234,6 +234,8 @@
 
             points.enter().append("circle") // append circles for the NEW ones
                 .merge(points) // combine it with the EXISTING ones
+                .transition()
+                .duration(500)
                 .attr("class", "workout-circle") // and now we can set r and cx etc
                 .attr("r", function(d){
                     return totalMinsScale(d.totalMins);
