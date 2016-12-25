@@ -26,12 +26,21 @@ display: none;
 </style>
 
 
-<h1>Inter vs Intra Borough Traffic</h1>
+<h1>Inter vs Intra Borough Traffic (Sept. 2015 - First week)</h1>
 
 <aside>Mouseover to focus on travel to and from a particular borough.<br><br>
-Staten Island has the least traffic (totally expected)</aside>
+    <b> Key Observations </b><br><br>
+Staten Island has the least traffic (totally expected) <br><br>
+    For green taxis, most of the boroughs have intra borough traffic <br><br>
+    For Brooklyn, the inter borough traffic is mostly with Manhattan<br><br>
+    For Bronx, the inter borough traffic is mostly with Manhattan<br><br>
+    For Queens, the inter borough traffic is mostly with Brooklyn<br><br>
+    For Manhattan, the inter borough traffic is mostly with Bronx
 
-<p>Built with <a href="http://d3js.org/">d3.js</a>.</aside>
+</aside>
+
+<p>Built with <a href="http://d3js.org/">d3.js</a> by Anuj Katiyal. Inspired by <a href="http://bl.ocks.org/AndrewRP/7468330">link</a>.
+
 
 <script src="https://d3js.org/d3.v2.min.js?2.8.1"></script>
 <script>
@@ -114,10 +123,10 @@ var chord = svg.selectAll(".chord")
  chord.append("title").text(function(d) {
  return cities[d.source.index].name
  + " → " + cities[d.target.index].name
- + ": " + formatPercent(d.source.value)
+ + ": " + d.source.value + " trips"
  + "\n" + cities[d.target.index].name
  + " → " + cities[d.source.index].name
- + ": " + formatPercent(d.target.value);
+ + ": " + d.target.value + " trips";
  });
 
 function mouseover(d, i) {
