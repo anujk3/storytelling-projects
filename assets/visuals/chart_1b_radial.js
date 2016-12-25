@@ -123,7 +123,7 @@
 		colorScale.domain([0, maxMinutes]);
 
 		aggregates.push(aggregates[0]);
-		// console.log(aggregates);
+		console.log(aggregates);
 
 
 		g.selectAll("circle")
